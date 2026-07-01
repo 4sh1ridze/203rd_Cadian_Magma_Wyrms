@@ -1,0 +1,14 @@
+name = "203rd Cadian 'Magma Wyrms'(Not Official)";
+author = "[ENG] Brentwood & CannonFodderMK4 | [RU] Voodoo & 4sh1r_";
+picture  = "203rd_logo.paa";
+logo = "203_logo_small.paa";
+logoOver = "203_logo_small.paa";
+tooltip	 = "";
+tooltipOwner = "203 - das kool";
+actionName = "GitHub";
+action = "";
+overview = "";
+hideName = 0;
+hidePicture = 0;
+dlcColor[] = { 0.23, 0.39, 0.30, 1 };
+logoSmall = "203_logo_small.paa";
