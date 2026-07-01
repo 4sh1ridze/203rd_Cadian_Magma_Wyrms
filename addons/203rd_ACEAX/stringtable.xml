@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="203rd Cadian 'Magma Wyrms'">
+	<Package name="ACEAX Menu Localization">
+		<Container name="None Localization">
+			<Key ID="STR_TAG_203rdMW_Menu_none_label">
+				<Original>None</Original>
+				<English>None</English>
+				<Russian> - </Russian>
+			</Key>
+		</Container>
+		<Container name="Backpacks Localization">
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_label">
+				<Original>Backpacks</Original>
+				<English>Backpack</English>
+				<Russian>Рюкзаки</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_label_Munitorum">
+				<Original>Munitorum</Original>
+				<English>Munitorum</English>
+				<Russian>Муниторум</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_no_gear">
+				<Original>No Gear</Original>
+				<English>No Gear</English>
+				<Russian>Без обвесов</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_nozhny">
+				<Original>Scabbard</Original>
+				<English>Scabbard</English>
+				<Russian>Ножны</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_skatka">
+				<Original>Bedroll</Original>
+				<English>Bedroll</English>
+				<Russian>Скатка</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_MED">
+				<Original>Medicae</Original>
+				<English>Medicae</English>
+				<Russian>Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_light">
+				<Original>Light</Original>
+				<English>Light</English>
+				<Russian>МАЛ|НОЖ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_light_knife">
+				<Original>Light|KNF</Original>
+				<English>Light|KNF</English>
+				<Russian>МАЛ|НОЖ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_nozhny_lopata">
+				<Original>Knf|Shov</Original>
+				<English>Knf|Shov</English>
+				<Russian>Нож|МПЛ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_skatka_lopata">
+				<Original>Bed|Shov</Original>
+				<English>Bed|Shov</English>
+				<Russian>СКТК|МПЛ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_skatka_lopata_nozhny">
+				<Original>Bed|Knf|Shov</Original>
+				<English>Bed|Knf|Shov</English>
+				<Russian>СКТК|НОЖ|МПЛ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_skatka_shovel_pouches">
+				<Original>Bed|Shov|Pouch</Original>
+				<English>Bed|Shov|Pouches</English>
+				<Russian>СКТК|МПЛ|Сумки</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_skatka_lopata_nozhny_pouches">
+				<Original>Bed|Knf|Shov</Original>
+				<English>Bed|Knf|Shov</English>
+				<Russian>СКТК|НОЖ|МПЛ|Сумки</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_label_bandolier">
+				<Original>Chest Rigs</Original>
+				<English>Chest Rigs</English>
+				<Russian>РПСки</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_webbing_1">
+				<Original>Webbing V1</Original>
+				<English>Webbing V1</English>
+				<Russian>РПС В1</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_webbing_2">
+				<Original>Webbing V2</Original>
+				<English>Webbing V2</English>
+				<Russian>РПС В2</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_webbing_3">
+				<Original>Webbing V3</Original>
+				<English>Webbing V3</English>
+				<Russian>РПС В3</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_bandolier">
+				<Original>Bandolier</Original>
+				<English>Bandolier</English>
+				<Russian>Бандольера</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_label_field">
+				<Original>Field</Original>
+				<English>Field</English>
+				<Russian>Полевые</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_standart">
+				<Original>Standart</Original>
+				<English>Standart</English>
+				<Russian>Стандарт</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_kolobok">
+				<Original>Carry All</Original>
+				<English>Carry All</English>
+				<Russian>"Колобок"</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_vox_v1">
+				<Original>Vox Caster(2)</Original>
+				<English>Vox Caster(2)</English>
+				<Russian>Вокс кастер(2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_vox_v1">
+				<Original>Vox Caster(2)</Original>
+				<English>Vox Caster(2)</English>
+				<Russian>Вокс кастер(2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_invisible">
+				<Original>Invisible</Original>
+				<English>Invisible</English>
+				<Russian>"Невидимка"</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_kasr_cable">
+				<Original>Powerpack</Original>
+				<English>Powerpack</English>
+				<Russian>Паверпак</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_kasr_cable_NC">
+				<Original>Powerpack alt</Original>
+				<English>Powerpack alt</English>
+				<Russian>Паверпак альт</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_rocket">
+				<Original>Rocket</Original>
+				<English>Rocket</English>
+				<Russian>Ракеты</Russian>
+			</Key>
+		</Container>
+		<Container name="Helmets localization">
+			<Key ID="STR_TAG_203rdMW_Menu_Helmets_label">
+				<Original>Helmets</Original>
+				<English>Helmets</English>
+				<Russian>Шлема</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Helmets_label_hats">
+				<Original>Hats</Original>
+				<English>Hats</English>
+				<Russian>Гол-ые Уборы</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Helmets_patrol_cap">
+				<Original>Patrol Cap</Original>
+				<English>Patrol Cap</English>
+				<Russian>Полевая Кепи</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Helmets_officer_cap">
+				<Original>OFC Cap</Original>
+				<English>OFC Cap</English>
+				<Russian>Фуражка</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Helmets_tanker">
+				<Original>Tank Cap</Original>
+				<English>Tank Cap</English>
+				<Russian>Шлемофон</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_beret">
+				<Original>Beret</Original>
+				<English>Beret</English>
+				<Russian>Берет</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_specs">
+				<Original>Specialty</Original>
+				<English>Specialty</English>
+				<Russian>Специальность</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_specs_guardsman">
+				<Original>Regular</Original>
+				<English>Regular</English>
+				<Russian>Обычный</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_specs_medicae">
+				<Original>Medicae</Original>
+				<English>Medicae</English>
+				<Russian>Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_specs_kasrkin">
+				<Original>Kasrkin</Original>
+				<English>Kasrkin</English>
+				<Russian>Касркин</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_adds">
+				<Original>Additionals</Original>
+				<English>Additionals</English>
+				<Russian>Обвесы</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_adds_clear">
+				<Original>Empty</Original>
+				<English>Empty</English>
+				<Russian>Пустой</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_adds_goggles_up">
+				<Original>Googles(Up)</Original>
+				<English>Googles(Up)</English>
+				<Russian>С очками(На лбу)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_adds_goggle_down">
+				<Original>Googles(Down)</Original>
+				<English>Googles(Down)</English>
+				<Russian>С очками(Одеты)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_adds_rebreather">
+				<Original>Rebreather</Original>
+				<English>Rebreather</English>
+				<Russian>Ребризер</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_adds_rebreather_OG">
+				<Original>Rebreather(2)</Original>
+				<English>Rebreather(2)</English>
+				<Russian>Ребризер(2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_adds_rebreather_OG_NV">
+				<Original>Rebreather(2|alt)</Original>
+				<English>Rebreather(2|alt)</English>
+				<Russian>Ребризер(2|Альт)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_rank">
+				<Original>Rank</Original>
+				<English>Rank</English>
+				<Russian>Звание</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_rank_WS">
+				<Original>WS</Original>
+				<English>WS</English>
+				<Russian>БЩ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_rank_Troop">
+				<Original>PVT</Original>
+				<English>PVT</English>
+				<Russian>РЯД</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_rank_Serg">
+				<Original>SGT</Original>
+				<English>SGT</English>
+				<Russian>СЖТ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_rank_OFC">
+				<Original>OFC</Original>
+				<English>OFC</English>
+				<Russian>ОФЦ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_named">
+				<Original>Named</Original>
+				<English>Named</English>
+				<Russian>Именные</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_helmets_named_Muller">
+				<Original>Muller</Original>
+				<English>Muller</English>
+				<Russian>Мюллер</Russian>
+			</Key>
+		</Container>
+		<Container name="Vests localization">
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest">
+				<Original>Vests</Original>
+				<English>Vests</English>
+				<Russian>Жилеты</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_type">
+				<Original>Type</Original>
+				<English>Type</English>
+				<Russian>Тип</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_type_light">
+				<Original>Light</Original>
+				<English>Light</English>
+				<Russian>Легкий</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_type_medium">
+				<Original>Standart</Original>
+				<English>Standart</English>
+				<Russian>Стандарт</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_type_heavy">
+				<Original>Heavy</Original>
+				<English>Heavy</English>
+				<Russian>Тяжелый</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_variant">
+				<Original>Variant</Original>
+				<English>Variant</English>
+				<Russian>Вариация</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_variant_1">
+				<Original>V1</Original>
+				<English>V1</English>
+				<Russian>В1</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_variant_2">
+				<Original>V2</Original>
+				<English>V2</English>
+				<Russian>В2</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_variant_3">
+				<Original>V3</Original>
+				<English>V3</English>
+				<Russian>В3</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_variant_4">
+				<Original>V4</Original>
+				<English>V4</English>
+				<Russian>В4</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec">
+				<Original>Spec-s</Original>
+				<English>Spec-s</English>
+				<Russian>Спецуха</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_troop">
+				<Original>Guardsman</Original>
+				<English>Guardsman</English>
+				<Russian>Гвардеец</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_med">
+				<Original>Medicae</Original>
+				<English>Medicae</English>
+				<Russian>Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_HWT">
+				<Original>HWT</Original>
+				<English>HWT</English>
+				<Russian>Тяж</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_SWT">
+				<Original>SWT</Original>
+				<English>SWT</English>
+				<Russian>Спец</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_kasr">
+				<Original>Kasrkin</Original>
+				<English>Kasrkin</English>
+				<Russian>Касркин</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_kasr_med">
+				<Original>Kasr MED</Original>
+				<English>Kasr MED</English>
+				<Russian>Каср МЕД</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_kasr_hwt">
+				<Original>Kasr HWT</Original>
+				<English>Kasr HWT</English>
+				<Russian>Каср ХВТ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_kasr_swt">
+				<Original>Kasr SWT</Original>
+				<English>Kasr SWT</English>
+				<Russian>Каср СВТ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_spec_tank">
+				<Original>Tank</Original>
+				<English>Tank</English>
+				<Russian>Танкисты</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_rank">
+				<Original>Rank</Original>
+				<English>Rank</English>
+				<Russian>Ранг</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_rank_pvt">
+				<Original>PVT</Original>
+				<English>PVT</English>
+				<Russian>РЯД</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_rank_vet">
+				<Original>VET</Original>
+				<English>VET</English>
+				<Russian>ВЕТ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_rank_sgt">
+				<Original>SGT</Original>
+				<English>SGT</English>
+				<Russian>СЕРЖ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_rank_ofc">
+				<Original>OFC</Original>
+				<English>OFC</English>
+				<Russian>ОФЦ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named">
+				<Original>Named</Original>
+				<English>Named</English>
+				<Russian>Именной</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_zub">
+				<Original>Zubastik</Original>
+				<English>Zubastik</English>
+				<Russian>Зубастик</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_merek">
+				<Original>Parmentier</Original>
+				<English>Parmentier</English>
+				<Russian>Пармантье</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_muller">
+				<Original>Muller</Original>
+				<English>Muller</English>
+				<Russian>Мюллер</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_steel">
+				<Original>Steel</Original>
+				<English>Steel</English>
+				<Russian>Стил</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_brimm">
+				<Original>Rover</Original>
+				<English>Rover</English>
+				<Russian>Ровер</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_SOLNCELIKIY_KOMANDIR_KAPITAN_krass">
+				<Original>fon Krass</Original>
+				<English>fon Krass</English>
+				<Russian>фон Красс</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_psy">
+				<Original>Psyker</Original>
+				<English>Psyker</English>
+				<Russian>Псайкер</Russian>
+			</Key>
+		</Container>
+		<Container name ="Unifrom localization">
+			<Key ID="STR_TAG_203rdMW_Menu_label_uni">
+				<Original>Uniform</Original>
+				<English>Uniform</English>
+				<Russian>Униформа</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_camo">
+				<Original>Camouflage</Original>
+				<English>Camouflage</English>
+				<Russian>Камуфляж</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_camo_no_camo">
+				<Original>No camo</Original>
+				<English>No camo</English>
+				<Russian>Монотонная</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_camo_half_camo">
+				<Original>Half Camo</Original>
+				<English>Half Camo</English>
+				<Russian>Полу Камо</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_camo_camo">
+				<Original>Camouflaged</Original>
+				<English>Camouflaged</English>
+				<Russian>Камо</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_speci">
+				<Original>Specialty</Original>
+				<English>Specialty</English>
+				<Russian>Специальность</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_speci_troopic">
+				<Original>Guardsman</Original>
+				<English>Guardsman</English>
+				<Russian>Гвардеец</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_speci_med">
+				<Original>Medicae</Original>
+				<English>Medicae</English>
+				<Russian>Медикаэ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_speci_kasr">
+				<Original>Kasrkin</Original>
+				<English>Kasrkin</English>
+				<Russian>Касркин</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_speci_officer">
+				<Original>OFC</Original>
+				<English>OFC</English>
+				<Russian>ОФЦ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_speci_officer_med">
+				<Original>OFC MED</Original>
+				<English>OFC MED</English>
+				<Russian>ОФЦ МЕД</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_armor">
+				<Original>Armour</Original>
+				<English>Armour</English>
+				<Russian>Защита</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_armor_basic">
+				<Original>No armour</Original>
+				<English>No Armour</English>
+				<Russian>Без Защиты</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_armor_knee_pads">
+				<Original>Knee Pads</Original>
+				<English>Knee Pads</English>
+				<Russian>Наколенники</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_armor_TA">
+				<Original>Thigh armour</Original>
+				<English>Thigh armour</English>
+				<Russian>С налядвенником</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_armor_full">
+				<Original>Full</Original>
+				<English>Full</English>
+				<Russian>Полная</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
