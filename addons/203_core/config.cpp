@@ -1,0 +1,5 @@
+#include "cfgMods.hpp"
+#include "cfgPatches.hpp"
+#include "cfgFunctions.hpp"
+#include "cfgFactions.hpp"
+#include "cfgEditorSubcategories.hpp"
