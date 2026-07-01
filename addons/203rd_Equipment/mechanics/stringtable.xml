@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="203rd Cadian 'Magma Wyrms'">
+	<Package name="ACE Self-iteraction Menu Localization">
+		<Container name="Helmet Customize">
+			<Key ID="STR_TAG_203rdMW_ACESI_Group_Name">
+				<Original>203rd Gear</Original>
+				<English>203rd Gear</English>
+				<Russian>Снаряжение 203го</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Helm_Name">
+				<Original>Helmet</Original>
+				<English>Helmet</English>
+				<Russian>Шлем</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Helm_GD">
+				<Original>Down goggles</Original>
+				<English>Down goggles</English>
+				<Russian>Опустить очки</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Helm_GU">
+				<Original>Up goggles</Original>
+				<English>Up goggles</English>
+				<Russian>Поднять очки</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Helm_MON">
+				<Original>Rebreather On</Original>
+				<English>Rebreather On</English>
+				<Russian>Надеть ребризер</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Helm_MOFF">
+				<Original>Rebreather Off</Original>
+				<English>Rebreather Off</English>
+				<Russian>Снять ребризер</Russian>
+			</Key>
+			
+			<Key ID="STR_TAG_203rdMW_ACESI_Uni_Name">
+				<Original>Uniform</Original>
+				<English>Uniform</English>
+				<Russian>Униформа</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Uni_Roll_U">
+				<Original>Roll Up</Original>
+				<English>Roll Up</English>
+				<Russian>Закатать рукава</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Uni_Roll_D">
+				<Original>Roll Down</Original>
+				<English>Roll Down</English>
+				<Russian>Раскатать Рукава</Russian>
+			</Key>
+		</Container"
+	</Package>
+</Project>
