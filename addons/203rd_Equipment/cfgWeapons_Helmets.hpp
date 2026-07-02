@@ -417,7 +417,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="203rd CadianHelmet Sergeant v1 (Muller)";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_RebV2_Muller";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -433,7 +433,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="203rd CadianHelmet Sergeant v2 (Muller)";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_GU_Muller";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -511,21 +511,21 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Helm_SGT";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_MED";
 		hiddenSelections[]=
 		{
 			"camo"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\203rd_Equipment\data\2203rd_CadianHelmet_Medicae_Sergeant.paa"
+			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa"
 		};
 	};
 	class 203rd_Helmet_Mask_Sergeant_M: 203rd_Helmet_Mask
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Helm_SGT_M_Reb";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_MED_Reb";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -541,7 +541,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Helm_SGT_M_RebV2";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_MED_RebV2";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -557,7 +557,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Helm_SGT_M_RebV2_NV";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_MED_RebV2_NV";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -573,7 +573,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Helm_SGT_M_GU";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_MED_GU";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -589,7 +589,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Helm_SGT_M_GD";
+		displayName="$STR_TAG_203rdMW_Helm_SGT_MED_GD";
 		hiddenSelections[]=
 		{
 			"camo",

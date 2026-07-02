@@ -119,14 +119,6 @@ class XtdGearModels {
 	    };
     };
 	class CfgWeapons {
-		/*
-		class 203rd_Cadian_Uniforms {
-			label = "Uniforms";
-			author = "203rd Cadian";
-			options[] = {"uniform", "isRolled", "type", "role"};
-			
-		};
-		*/
 		class 203rd_Cadian_Helmets {
 			label = "$STR_TAG_203rdMW_Menu_Helmets_label";
 			author = "203rd Cadian";
@@ -375,7 +367,23 @@ class XtdGearModels {
 		class 203rd_Cadian_uniform{
 			label = "$STR_TAG_203rdMW_Menu_label_uni";
 			author = "203rd Cadian";
-			options[] = {"camo","speci","armor"};
+			options[] = {"tip","camo","speci","armor","rang"};
+			class tip
+			{
+				alwaysSelectable = 1;
+				changeingame = 0;
+				label = "$STR_TAG_203rdMW_Menu_uni_tip";
+				values[] = {"norm", "rolled", "parka"};
+				class norm{
+					label="$STR_TAG_203rdMW_Menu_uni_tip_norm";
+				};
+				class rolled{
+					label="$STR_TAG_203rdMW_Menu_uni_tip_rolled";
+				};
+				class parka{
+					label="$STR_TAG_203rdMW_Menu_uni_tip_parka";
+				};
+			};
 			class camo
 			{
 				alwaysSelectable = 1;
@@ -383,66 +391,69 @@ class XtdGearModels {
 				label = "$STR_TAG_203rdMW_Menu_label_uni_camo";
 				values[] = {"none","no_camo", "half_camo", "camo"};
 				
-				class none{
-					label="$STR_TAG_203rdMW_Menu_none_label";
-				};
 				class no_camo{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_camo_no_camo";
+					label="$STR_TAG_203rdMW_Menu_uni_camo_no_camo";
 				};
 				class half_camo{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_camo_half_camo";
+					label="$STR_TAG_203rdMW_Menu_uni_camo_half_camo";
 				};
 				class camo{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_camo_camo";
+					label="$STR_TAG_203rdMW_Menu_uni_camo_camo";
 				};
 			};
 			class speci
 			{
 				alwaysSelectable = 1;
 				changeingame = 0;
-				label = "$STR_TAG_203rdMW_Menu_label_uni_speci";
-				values[] = {"troopic", "med","officer_med","officer","karasik"};
+				label = "$STR_TAG_203rdMW_Menu_uni_speci";
+				values[] = {"troopic", "medi","karasik"};
 				
-				class troop{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_speci_troopic";
+				class troopic{
+					label="$STR_TAG_203rdMW_Menu_uni_speci_troopic";
 				};
-				class med{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_speci_med";
-				};
-				class officer_med{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_speci_officer_med";
-				};
-				class officer{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_speci_officer";
+				class medi{
+					label="$STR_TAG_203rdMW_Menu_uni_speci_med";
 				};
 				class karasik{
-					label="$STR_TAG_203rdMW_Menu_label_vest_uni_speci_officer";
+					label="$STR_TAG_203rdMW_Menu_uni_speci_kasr";
 				};
 			};
 			class armor
 			{
 				alwaysSelectable = 1;
 				changeingame = 0;
-				label = "$STR_TAG_203rdMW_Menu_label_uni_armor";
+				label = "$STR_TAG_203rdMW_Menu_armory";
 				values[] = {"none","basic", "knee_pads", "TA","full","kn_brac"};
-				
-				class none{
-					label="$STR_TAG_203rdMW_Menu_none_label";
-				};
 				class basic{
-					label="$STR_TAG_203rdMW_Menu_label_vest_armor_basic";
+					label="$STR_TAG_203rdMW_Menu_armor_basic";
 				};
 				class knee_pads{
-					label="$STR_TAG_203rdMW_Menu_label_vest_armor_knee_pads";
+					label="$STR_TAG_203rdMW_Menu_armor_knee_pads";
 				};
 				class TA{
-					label="$STR_TAG_203rdMW_Menu_label_vest_armor_TA";
+					label="$STR_TAG_203rdMW_Menu_armor_TA";
 				};
 				class full{
-					label="$STR_TAG_203rdMW_Menu_label_vest_armor_full";
+					label="$STR_TAG_203rdMW_Menu_armor_full";
 				};
 				class kn_brac{
-					label="$STR_TAG_203rdMW_Menu_label_vest_armor_kn_brac";
+					label="$STR_TAG_203rdMW_Menu_armor_kn_brac";
+				};
+			};
+			class rang
+			{
+				alwaysSelectable = 1;
+				changeingame = 0;
+				label = "$STR_TAG_203rdMW_Menu_rang";
+				values[] = {"Private", "Sergants", "Officers"};
+				class Private{
+					label="$STR_TAG_203rdMW_Menu_rang_Private";
+				};
+				class Sergants{
+					label="$STR_TAG_203rdMW_Menu_rang_Sergants";
+				};
+				class Officers{
+					label="$STR_TAG_203rdMW_Menu_rang_Officers";
 				};
 			};
 		};
@@ -849,7 +860,7 @@ class XtdGearInfos {
 		{
 			model = "203rd_Cadian_Helmets";
 			ubor = "none";
-			specs = "guardsman";
+			specs = "medicae";
 			additionals = "clear";
 			rank = "serg";
 			named = "none";
@@ -858,7 +869,7 @@ class XtdGearInfos {
 		{
 			model = "203rd_Cadian_Helmets";
 			ubor = "none";
-			specs = "guardsman";
+			specs = "medicae";
 			additionals = "rebreather";
 			rank = "serg";
 			named = "none";
@@ -867,7 +878,7 @@ class XtdGearInfos {
 		{
 			model = "203rd_Cadian_Helmets";
 			ubor = "none";
-			specs = "guardsman";
+			specs = "medicae";
 			additionals = "rebreather_OG";
 			rank = "serg";
 			named = "none";
@@ -876,7 +887,7 @@ class XtdGearInfos {
 		{
 			model = "203rd_Cadian_Helmets";
 			ubor = "none";
-			specs = "guardsman";
+			specs = "medicae";
 			additionals = "rebreather_OG_NV";
 			rank = "serg";
 			named = "none";
@@ -885,7 +896,7 @@ class XtdGearInfos {
 		{
 			model = "203rd_Cadian_Helmets";
 			ubor = "none";
-			specs = "guardsman";
+			specs = "medicae";
 			additionals = "goggle_up";
 			rank = "serg";
 			named = "none";
@@ -894,7 +905,7 @@ class XtdGearInfos {
 		{
 			model = "203rd_Cadian_Helmets";
 			ubor = "none";
-			specs = "guardsman";
+			specs = "medicae";
 			additionals = "goggle_down";
 			rank = "serg";
 			named = "none";
@@ -1006,6 +1017,15 @@ class XtdGearInfos {
 			additionals = "rebreather_OG_NV";
 			rank = "serg";
 			named = "none";
+		};
+		class 203rd_Helmet_Sergeant_Muller
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "none";
+			specs = "guardsman";
+			additionals = "clear";
+			rank = "serg";
+			named = "muller";
 		};
 		class 203rd_Sergeant_Muller_Mask
 		{
@@ -1121,54 +1141,6 @@ class XtdGearInfos {
 			variant="v4";
 			spec="med";
 			rank="pvt";
-			named="none";
-		};
-		class 203rd_Armor_Veteran_Medicae{
-			model="203rd_Cadian_Vests";
-			type="medium";
-			variant="none";
-			spec="med";
-			rank="vet";
-			named="none";
-		};
-		class 203rd_Armor_V1_Veteran_Medicae{
-			model="203rd_Cadian_Vests";
-			type="medium";
-			variant="v1";
-			spec="med";
-			rank="vet";
-			named="none";
-		};
-		class 203rd_Armor_V2_Veteran_Medicae{
-			model="203rd_Cadian_Vests";
-			type="medium";
-			variant="v2";
-			spec="med";
-			rank="vet";
-			named="none";
-		};
-		class 203rd_Armor_V3_Veteran_Medicae{
-			model="203rd_Cadian_Vests";
-			type="medium";
-			variant="v3";
-			spec="med";
-			rank="vet";
-			named="none";
-		};
-		class 203rd_Armor_V4_Veteran_Medicae{
-			model="203rd_Cadian_Vests";
-			type="medium";
-			variant="v4";
-			spec="med";
-			rank="vet";
-			named="none";
-		};
-		class 203rd_Armor_Sergeant_Medicae{
-			model="203rd_Cadian_Vests";
-			type="medium";
-			variant="none";
-			spec="med";
-			rank="sgt";
 			named="none";
 		};
 		class 203rd_Armor_Sergeant_Medicae_1{
@@ -1288,6 +1260,46 @@ class XtdGearInfos {
 			type="medium";
 			variant="v4";
 			spec="troop";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_Sergeant_Medicae{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="none";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_V1_Sergeant_Medicae{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v1";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_V2_Sergeant_Medicae{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v2";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_V3_Sergeant_Medicae{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v3";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_V4_Sergeant_Medicae{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v4";
+			spec="med";
 			rank="sgt";
 			named="none";
 		};
@@ -1667,6 +1679,546 @@ class XtdGearInfos {
 			rank="pvt";
 			named="none";
 		};
-		
+		//uniforms yepta
+		class 203rd_Uniform_1_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="basic";
+			rang="Private";
+		};
+		class 203rd_Uniform_1_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="basic";
+			rang="Private";
+		};
+		class 203rd_Uniform_1_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="basic";
+			rang="Private";
+		};
+		class 203rd_Uniform_1_w_3
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="basic";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_1_w_4
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="basic";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_1_w_5
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="basic";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_2_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_2_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_2_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_2_w_3
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_2_w_4
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_2_w_5
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_3_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_3_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_3_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_3_w_3
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="TA";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_3_w_4
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="TA";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_3_w_5
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="TA";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_4_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="full";
+			rang="Private";
+		};
+		class 203rd_Uniform_4_w_1
+		{	
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="full";
+			rang="Private";
+		};
+		class 203rd_Uniform_4_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="full";
+			rang="Private";
+		};
+		class 203rd_Uniform_4_w_3
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="full";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_4_w_4
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="troopic";
+			armor="full";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_4_w_5
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="troopic";
+			armor="full";
+			rang="Sergants";
+		};
+		class 203rd_Uniform_5_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="parka";
+			camo="no_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_5_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="parka";
+			camo="camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_5_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="parka";
+			camo="no_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Officers";
+		};
+		class 203rd_Uniform_5_w_3
+		{
+			model="203rd_Cadian_uniform";
+			tip="parka";
+			camo="camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Sergeants";
+		};
+		class 203rd_Uniform_6_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="kn_brac";
+			rang="Private";
+		};
+		class 203rd_Uniform_6_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="troopic";
+			armor="kn_brac";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_1_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="troopic";
+			armor="basic";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_1_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="troopic";
+			armor="basic";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_1_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="troopic";
+			armor="basic";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_2_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_2_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_2_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="troopic";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_3_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="troopic";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_3_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="troopic";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_3_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="troopic";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_2_Medicae_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_2_Medicae_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_2_Medicae_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_3_Medicae_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="medi";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_3_Medicae_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="medi";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_3_Medicae_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="medi";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_4_Medicae_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="medi";
+			armor="full";
+			rang="Private";
+		};
+		class 203rd_Uniform_4_Medicae_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="medi";
+			armor="full";
+			rang="Private";
+		};
+		class 203rd_Uniform_4_Medicae_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="medi";
+			armor="full";
+			rang="Private";
+		};
+		class 203rd_Uniform_5_Medicae_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="parka";
+			camo="no_camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_5_Medicae_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="parka";
+			camo="camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_6_Medicae
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="medi";
+			armor="kn_brac";
+			rang="Private";
+		};
+		class 203rd_Uniform_6_Medicae_v_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="half_camo";
+			speci="medi";
+			armor="kn_brac";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_2_Medicae_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_2_Medicae_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_2_Medicae_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="medi";
+			armor="knee_pads";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_3_Medicae_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="no_camo";
+			speci="medi";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_3_Medicae_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="camo";
+			speci="medi";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_Rolled_3_Medicae_w_2
+		{
+			model="203rd_Cadian_uniform";
+			tip="rolled";
+			camo="half_camo";
+			speci="medi";
+			armor="TA";
+			rang="Private";
+		};
+		class 203rd_Uniform_Kasrkin_w
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="no_camo";
+			speci="karasik";
+			armor="full";
+			rang="Private";
+		};
+		class 203rd_Uniform_Kasrkin_w_1
+		{
+			model="203rd_Cadian_uniform";
+			tip="norm";
+			camo="camo";
+			speci="karasik";
+			armor="full";
+			rang="Private";
+		};
 	};
 };

@@ -65,10 +65,10 @@
 	class 203rd_Uniform_1_v_3: FIG_CadianUniformV1_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_1_w_3";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Half_CamoCamo";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -83,7 +83,7 @@
 	class 203rd_Uniform_1_v_4: FIG_CadianUniformV1_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_1_w_4";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -101,7 +101,7 @@
 	class 203rd_Uniform_1_v_5: FIG_CadianUniformV1_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_1_w_5";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Camo";
@@ -173,7 +173,7 @@
 	class 203rd_Uniform_2_v_3: FIG_CadianUniformV2_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_2_w_3";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -191,10 +191,10 @@
 	class 203rd_Uniform_2_v_4: FIG_CadianUniformV2_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_2_w_4";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Standart";
+		editorSubcategory = "203rdMW_Troop_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -209,10 +209,10 @@
 	class 203rd_Uniform_2_v_5: FIG_CadianUniformV2_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_2_w_5";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Standart";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -281,7 +281,7 @@
 	class 203rd_Uniform_3_v_3: FIG_CadianUniformV3_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_3_w_3";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -299,10 +299,10 @@
 	class 203rd_Uniform_3_v_4: FIG_CadianUniformV3_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_3_w_4";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Standart";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -317,10 +317,10 @@
 	class 203rd_Uniform_3_v_5: FIG_CadianUniformV3_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_3_w_5";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Standart";
+		editorSubcategory = "203rdMW_Troop_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -389,7 +389,7 @@
 	class 203rd_Uniform_4_v_3: FIG_CadianUniformV4_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_4_w_3";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -407,10 +407,10 @@
 	class 203rd_Uniform_4_v_4: FIG_CadianUniformV4_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_4_w_4";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Standart";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -425,10 +425,10 @@
 	class 203rd_Uniform_4_v_5: FIG_CadianUniformV4_inf_B
 	{
 		scope=2;
-		displayName="203rd_Unit_Sergeant_badges";
+		displayName="$STR_TAG_203rdMW_Unit_SGT";
 		uniformClass="203rd_Uniform_4_w_5";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Standart";
+		editorSubcategory = "203rdMW_Troop_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -443,7 +443,7 @@
 	class 203rd_Uniform_5_v: FIG_CadianUniformV5_inf_B
 	{
 		scope=2;
-		displayName="203rd_Troop_Overcoat";
+		displayName="$STR_TAG_203rdMW_Unit_Rifleman_Overcoat";
 		uniformClass="203rd_Uniform_5_w";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -461,10 +461,10 @@
 	class 203rd_Uniform_5_v_1: FIG_CadianUniformV5_inf_B
 	{
 		scope=2;
-		displayName="203rd_Troop_Overcoat_Camo";
+		displayName="$STR_TAG_203rdMW_Unit_Rifleman_Overcoat";
 		uniformClass="203rd_Uniform_5_w_1";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Camo";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -479,10 +479,10 @@
 	class 203rd_Uniform_5_v_2: FIG_CadianUniformV5_inf_B
 	{
 		scope=2;
-		displayName="203rd_UniTop_Officer_Overcoat";
+		displayName="$STR_TAG_203rdMW_Unit_Officer";
 		uniformClass="203rd_Uniform_5_w_2";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Half_Camo";
+		editorSubcategory = "203rdMW_Troop_Standart";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -497,10 +497,10 @@
 	class 203rd_Uniform_5_v_3: FIG_CadianUniformV5_inf_B
 	{
 		scope=2;
-		displayName="203rd_Sergeant_Overcoat";
+		displayName="$STR_TAG_203rdMW_Unit_Sergeant_Overcoat";
 		uniformClass="203rd_Uniform_5_w_3";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Camo";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -515,7 +515,7 @@
 	class 203rd_Uniform_6_w: FIG_CadianUniformV4_1_base
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_Sergeant";
+		displayName="$STR_TAG_203rdMW_Unit_VET";
 		uniformClass="203rd_Uniform_6_w";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -533,10 +533,10 @@
 	class 203rd_Uniform_6_v_1: FIG_CadianUniformV4_1_base
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_Vet";
+		displayName="$STR_TAG_203rdMW_Unit_VET";
 		uniformClass="203rd_Uniform_6_w_1";
 		faction = "203rdMW_Faction";
-		editorSubcategory = "203rdMW_Troop_Half_Camo";
+		editorSubcategory = "203rdMW_Troop_Camo";
 		hiddenSelections[]=
 		{
 			"camo",
