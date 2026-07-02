@@ -65,7 +65,7 @@
 	class 203rd_Uniform_1_v_3: FIG_CadianUniformV1_inf_B
 	{
 		scope=2;
-		displayName="203rdMW_Unit_Sergeant";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_1_w_3";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Half_CamoCamo";
@@ -83,7 +83,7 @@
 	class 203rd_Uniform_1_v_4: FIG_CadianUniformV1_inf_B
 	{
 		scope=2;
-		displayName="203rdMW_Unit_Sergeant";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_1_w_4";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -101,7 +101,7 @@
 	class 203rd_Uniform_1_v_5: FIG_CadianUniformV1_inf_B
 	{
 		scope=2;
-		displayName="203rdMW_Unit_Sergeant";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_1_w_5";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Camo";
@@ -173,7 +173,7 @@
 	class 203rd_Uniform_2_v_3: FIG_CadianUniformV2_inf_B
 	{
 		scope=2;
-		displayName="203rdMW_Unit_Sergeant";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_2_w_3";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -191,7 +191,7 @@
 	class 203rd_Uniform_2_v_4: FIG_CadianUniformV2_inf_B
 	{
 		scope=2;
-		displayName="203rdMW_Unit_Sergeant";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_2_w_4";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -209,7 +209,7 @@
 	class 203rd_Uniform_2_v_5: FIG_CadianUniformV2_inf_B
 	{
 		scope=2;
-		displayName="203rdMW_Unit_Sergeant";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_2_w_5";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -281,7 +281,7 @@
 	class 203rd_Uniform_3_v_3: FIG_CadianUniformV3_inf_B
 	{
 		scope=2;
-		displayName="203rdMW_Unit_Sergeant";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_3_w_3";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -299,7 +299,7 @@
 	class 203rd_Uniform_3_v_4: FIG_CadianUniformV3_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_Specialist";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_3_w_4";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -317,7 +317,7 @@
 	class 203rd_Uniform_3_v_5: FIG_CadianUniformV3_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_Specialist";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_3_w_5";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -389,7 +389,7 @@
 	class 203rd_Uniform_4_v_3: FIG_CadianUniformV4_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_HWT";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_4_w_3";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -407,7 +407,7 @@
 	class 203rd_Uniform_4_v_4: FIG_CadianUniformV4_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_HWT";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_4_w_4";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -425,7 +425,7 @@
 	class 203rd_Uniform_4_v_5: FIG_CadianUniformV4_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_HWT";
+		displayName="203rd_Unit_Sergeant_badges";
 		uniformClass="203rd_Uniform_4_w_5";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -443,7 +443,7 @@
 	class 203rd_Uniform_5_v: FIG_CadianUniformV5_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_Officer";
+		displayName="203rd_Troop_Overcoat";
 		uniformClass="203rd_Uniform_5_w";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Standart";
@@ -455,13 +455,13 @@
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_UniPants_Knees.paa",
-			"\203rd_Equipment\data\230rd_UniTop_Officer.paa"
+			"\203rd_Equipment\data\203rd_UniTop_Overcoat.paa"
 		};
 	};
 	class 203rd_Uniform_5_v_1: FIG_CadianUniformV5_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_Officer";
+		displayName="203rd_Troop_Overcoat_Camo";
 		uniformClass="203rd_Uniform_5_w_1";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Camo";
@@ -473,14 +473,14 @@
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_UniPants_Knees_Camo.paa",
-			"\203rd_Equipment\data\230rd_UniTop_Officer.paa"
+			"\203rd_Equipment\data\203rd_UniTop_Overcoat.paa"
 		};
 	};
 	class 203rd_Uniform_5_v_2: FIG_CadianUniformV5_inf_B
 	{
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Unit_Psyker";
-		uniformClass="203rd_Uniform_5_w";
+		displayName="203rd_UniTop_Officer_Overcoat";
+		uniformClass="203rd_Uniform_5_w_2";
 		faction = "203rdMW_Faction";
 		editorSubcategory = "203rdMW_Troop_Half_Camo";
 		hiddenSelections[]=
@@ -491,7 +491,25 @@
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_UniPants_Knees_PSY.paa",
-			"\203rd_Equipment\data\230rd_UniTop_Officer_PSY.paa"
+			"\203rd_Equipment\data\203rd_UniTop_Officer_Overcoat.paa"
+		};
+	};
+	class 203rd_Uniform_5_v_3: FIG_CadianUniformV5_inf_B
+	{
+		scope=2;
+		displayName="203rd_Sergeant_Overcoat";
+		uniformClass="203rd_Uniform_5_w_3";
+		faction = "203rdMW_Faction";
+		editorSubcategory = "203rdMW_Troop_Camo";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_UniPants_Knees_Camo.paa",
+			"\203rd_Equipment\data\203rd_UniTop_Sergeant_Overcoat.paa"
 		};
 	};
 	class 203rd_Uniform_6_w: FIG_CadianUniformV4_1_base

@@ -326,7 +326,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_OFC";
+		displayName="$STR_TAG_203rdMW_Uni_Overcoat";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -339,7 +339,7 @@ class UniformItem;
 	{
 		author="Voodoo";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_OFC_Camo";
+		displayName="$STR_TAG_203rdMW_Uni_Overcoat_Camo";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -352,11 +352,24 @@ class UniformItem;
 	{
 		author="Voodoo";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_PSY";
+		displayName="$STR_TAG_203rdMW_Uni_Officer";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
 			uniformClass="203rd_Uniform_5_v_2";
+			containerClass="Supply90";
+			mass=80;
+		};
+	};
+	class 203rd_Uniform_5_w_3: FIG_CadianUniformV4_U_OP
+	{
+		author="Voodoo";
+		scope=2;
+		displayName="203rd_Sergeant_Overcoat";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="203rd_Uniform_5_v_3";
 			containerClass="Supply90";
 			mass=80;
 		};
