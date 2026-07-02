@@ -24,28 +24,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			mass=10;
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianCap.p3d";
-			hiddenSelections[]=
-			{
-				"camo"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianCap_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=12;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Beret: IC_scion_beret
 	{
@@ -78,25 +57,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			mass=2;
-			uniformModel="\IC_cad_inf\Headgear\IC_officer_cap.p3d";
-			modelSides[]={3,1};
-			hiddenSelections[]=
-			{
-				"camo1"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=12;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Tanker_Cap: IC_tanker_cap
 	{
@@ -121,27 +82,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelm.p3d";
-			hiddenSelections[]=
-			{
-				"camo"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianHelmet.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_Mask: FIG_CadianHelmMask
 	{
@@ -160,29 +101,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmMask.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianHelmet.paa",
-				"\203rd_Equipment\data\203rd_CadianMask.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_Mask_OG: FIG_CadianHelmOGMask
 	{
@@ -201,29 +120,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmOGMask.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianHelmet.paa",
-				"\203rd_Equipment\data\203rd_CadianMaskOG.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_Mask_OG_NV: FIG_CadianHelmOGMaskNV
 	{
@@ -242,29 +139,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmOGMaskNV.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianHelmet.paa",
-				"\203rd_Equipment\data\203rd_CadianMaskOG.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_GU: FIG_CadianHelmGU
 	{
@@ -283,29 +158,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmGU.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianHelmet_co.paa",
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianGoggles_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_GD: FIG_CadianHelmGD
 	{
@@ -324,29 +177,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmGD.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianHelmet_co.paa",
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianGoggles_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_Medicae: 203rd_Helmet
 	{
@@ -614,6 +445,20 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 			"\203rd_Equipment\data\203rd_CadianGoggles.paa"
 		};
 	};
+	class 203rd_Helmet_Sergeant_Muller: 203rd_Helmet
+	{
+		author="Voodoo";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_SGT_Muller";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet_Sergeant_Muller.paa"
+		};
+	};
 	class 203rd_Helmet_Mask_OG_NV_Sergeant: 203rd_Helmet_Mask_OG_NV
 	{
 		author="Brentwood";
@@ -660,6 +505,100 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		{
 			"\203rd_Equipment\data\203rd_CadianHelmet_Sergeant.paa",
 			"\203rd_Equipment\data\203rd_CadianGoggles.paa"
+		};
+	};
+	class 203rd_Helmet_Sergeant_M: 203rd_Helmet
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_SGT";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\2203rd_CadianHelmet_Medicae_Sergeant.paa"
+		};
+	};
+	class 203rd_Helmet_Mask_Sergeant_M: 203rd_Helmet_Mask
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_SGT_M_Reb";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianMask_Medicae.paa"
+		};
+	};
+	class 203rd_Helmet_Mask_OG_Sergeant_M: 203rd_Helmet_Mask_OG
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_SGT_M_RebV2";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianMaskOG_Medicae.paa"
+		};
+	};
+	class 203rd_Helmet_Mask_OG_NV_Sergeant_M: 203rd_Helmet_Mask_OG_NV
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_SGT_M_RebV2_NV";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianMaskOG_Medicae.paa"
+		};
+	};
+	class 203rd_Helmet_GU_Sergeant_M: 203rd_Helmet_GU
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_SGT_M_GU";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianGoggles_Medicae.paa"
+		};
+	};
+	class 203rd_Helmet_GD_Sergeant_M: 203rd_Helmet_GD
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_SGT_M_GD";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianGoggles_Medicae.paa"
 		};
 	};
 	class 203rd_Helmet_Officer: 203rd_Helmet
@@ -771,29 +710,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 			"\203rd_Equipment\data\203rd_CadianHelmet_Kasrkin.paa",
 			"\203rd_Equipment\data\203rd_CadianMask_Kasrkin.paa"
 		};
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmMask.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianHelmet_co.paa",
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianMask_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=36;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_Mask_Kasrkin_OG: 203rd_Helmet_Mask_OG
 	{
@@ -810,29 +727,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 			"\203rd_Equipment\data\203rd_CadianHelmet_Kasrkin.paa",
 			"\203rd_Equipment\data\203rd_KasrkinMaskOG.paa"
 		};
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmOGMask.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianHelmet_co.paa",
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianOGMask_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_Mask_Kasrkin_OG_NV: 203rd_Helmet_Mask_OG_NV
 	{
@@ -849,29 +744,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 			"\203rd_Equipment\data\203rd_CadianHelmet_Kasrkin.paa",
 			"\203rd_Equipment\data\203rd_KasrkinMaskOG.paa"
 		};
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianHelmOGMaskNV.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianHelmet_co.paa",
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianHelm\FIG_CadianOGMask_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Head
-				{
-					hitpointName="HitHead";
-					armor=30;
-					passThrough=0.5;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Helmet_Mask_Kasrkin_Sergeant: 203rd_Helmet_Mask_Kasrkin
 	{
