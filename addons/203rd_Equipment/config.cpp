@@ -23,3 +23,4 @@ class CfgWeapons
 	#include "cfgWeapons_Vests.hpp"
 };
 #include "cfgGlasses.hpp"
+//Всё это залупа, рот ебал А3 и AR.
