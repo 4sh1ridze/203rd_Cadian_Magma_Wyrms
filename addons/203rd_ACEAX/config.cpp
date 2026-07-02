@@ -1215,6 +1215,46 @@ class XtdGearInfos {
 			rank="vet";
 			named="none";
 		};
+		class 203rd_Armor_Veteran{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="none";
+			spec="med";
+			rank="vet";
+			named="none";
+		};
+		class 203rd_Armor_V1_Veteran{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v1";
+			spec="med";
+			rank="vet";
+			named="none";
+		};
+		class 203rd_Armor_V2_Veteran{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v2";
+			spec="med";
+			rank="vet";
+			named="none";
+		};
+		class 203rd_Armor_V3_Veteran{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v3";
+			spec="med";
+			rank="vet";
+			named="none";
+		};
+		class 203rd_Armor_V4_Veteran{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v4";
+			spec="med";
+			rank="vet";
+			named="none";
+		};
 		class 203rd_Armor_Sergeant{
 			model="203rd_Cadian_Vests";
 			type="medium";
