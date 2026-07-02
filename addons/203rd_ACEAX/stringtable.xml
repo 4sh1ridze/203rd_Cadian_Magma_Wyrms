@@ -8,7 +8,7 @@
 				<Russian> - </Russian>
 			</Key>
 		</Container>
-		<Container name="Backpacks Localization">
+		<Container name="ACE AX Backpacks Localization">
 			<Key ID="STR_TAG_203rdMW_Menu_Backpack_label">
 				<Original>Backpacks</Original>
 				<English>Backpack</English>
@@ -145,7 +145,7 @@
 				<Russian>Ракеты</Russian>
 			</Key>
 		</Container>
-		<Container name="Helmets localization">
+		<Container name="ACE AX Helmets localization">
 			<Key ID="STR_TAG_203rdMW_Menu_Helmets_label">
 				<Original>Helmets</Original>
 				<English>Helmets</English>
@@ -267,7 +267,7 @@
 				<Russian>Мюллер</Russian>
 			</Key>
 		</Container>
-		<Container name="Vests localization">
+		<Container name="ACE AX Vests localization">
 			<Key ID="STR_TAG_203rdMW_Menu_label_vest">
 				<Original>Vests</Original>
 				<English>Vests</English>
@@ -434,11 +434,31 @@
 				<Russian>Псайкер</Russian>
 			</Key>
 		</Container>
-		<Container name ="Unifrom localization">
+		<Container name="ACE AX Unifrom localization">
 			<Key ID="STR_TAG_203rdMW_Menu_label_uni">
 				<Original>Uniform</Original>
 				<English>Uniform</English>
 				<Russian>Униформа</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_tip">
+				<Original>Appearance</Original>
+				<English>Appearance</English>
+				<Russian>Внешний Вид</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_tip_norm">
+				<Original>Regular</Original>
+				<English>Regular</English>
+				<Russian>Стандарт</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_tip_rolled">
+				<Original>Rolled</Original>
+				<English>Rolled</English>
+				<Russian>Закатанная</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_uni_tip_parka">
+				<Original>Parka</Original>
+				<English>Parka</English>
+				<Russian>Парка</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Menu_uni_camo">
 				<Original>Camouflage</Original>
@@ -480,17 +500,7 @@
 				<English>Kasrkin</English>
 				<Russian>Касркин</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Menu_uni_speci_officer">
-				<Original>OFC</Original>
-				<English>OFC</English>
-				<Russian>ОФЦ</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Menu_uni_speci_officer_med">
-				<Original>OFC MED</Original>
-				<English>OFC MED</English>
-				<Russian>ОФЦ МЕД</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Menu_armor">
+			<Key ID="STR_TAG_203rdMW_Menu_armory">
 				<Original>Armour</Original>
 				<English>Armour</English>
 				<Russian>Защита</Russian>
@@ -514,6 +524,31 @@
 				<Original>Full</Original>
 				<English>Full</English>
 				<Russian>Полная</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_armor_kn_brac">
+				<Original>KP|Bracers</Original>
+				<English>>KP|Bracers</English>
+				<Russian>Кол.|Наруч</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_rang">
+				<Original>Rang</Original>
+				<English>Rang</English>
+				<Russian>Звание</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_rang_Private">
+				<Original>PVTs</Original>
+				<English>PVTs</English>
+				<Russian>Рядовые</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_rang_Sergants">
+				<Original>SGTs</Original>
+				<English>SGTs</English>
+				<Russian>Сержанты</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_rang_Officers">
+				<Original>OFCs</Original>
+				<English>OFCs</English>
+				<Russian>Офицеры</Russian>
 			</Key>
 		</Container>
 	</Package>

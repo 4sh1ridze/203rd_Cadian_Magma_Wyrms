@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="203rd Cadian 'Magma Wyrms'">
+	<Package name="Equipment Localization">
+		<Container name="Uniform Localization">
+			<Key ID="STR_TAG_203rdMW_Uni">
+				<Original>[203rd] Uniform</Original>
+				<English>[203rd] Uniform</English>
+				<Russian>[203ий] Униформа</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Camo">
+				<Original>[203rd] Uniform(Camo)</Original>
+				<English>[203rd] Uniform(Camo)</English>
+				<Russian>[203ий] Униформа(Камо)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Half_Camo">
+				<Original>[203rd] Uniform(Half-Camo)</Original>
+				<English>[203rd] Uniform(Half-Camo)</English>
+				<Russian>[203ий] Униформа(Полу-Камо)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_KP">
+				<Original>[203rd] Uniform(Knee Pads)</Original>
+				<English>[203rd] Uniform(Knee Pads)</English>
+				<Russian>[203ий] Униформа(Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Camo_KP">
+				<Original>[203rd] Uniform(Camo|Knee Pads)</Original>
+				<English>[203rd] Uniform(Camo|Knee Pads)</English>
+				<Russian>[203ий] Униформа(Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Half_Camo_KP">
+				<Original>[203rd] Uniform(Half-Camo |Knee Pads)</Original>
+				<English>[203rd] Uniform(Half-Camo |Knee Pads)</English>
+				<Russian>[203ий] Униформа(Полу-Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_KP_BRAC">
+				<Original>[203rd] Uniform(Knee Pads, Bracers)</Original>
+				<English>[203rd] Uniform(Knee Pads, Bracers)</English>
+				<Russian>[203ий] Униформа(Наколенники, Наручи)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_KP_TA">
+				<Original>[203rd] Uniform(Half Armor)</Original>
+				<English>[203rd] Uniform(Half Armor)</English>
+				<Russian>[203ий] Униформа(Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Camo_KP_TA">
+				<Original>[203rd] Uniform(Camo|Half Armor)</Original>
+				<English>[203rd] Uniform(Camo|Half Armor)</English>
+				<Russian>[203ий] Униформа(Камо|Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Half_Camo_KP_TA">
+				<Original>[203rd] Uniform(Half-Camo |Half Armor)</Original>
+				<English>[203rd] Uniform(Half-Camo |Half Armor)</English>
+				<Russian>[203ий] Униформа(Полу-Камо|Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_KP_FA">
+				<Original>[203rd] Uniform(Full)</Original>
+				<English>[203rd] Uniform(Full)</English>
+				<Russian>[203ий] Униформа(Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Camo_KP_FA">
+				<Original>[203rd] Uniform(Camo|Full)</Original>
+				<English>[203rd] Uniform(Camo|Full)</English>
+				<Russian>[203ий] Униформа(Камо|Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Half_Camo_KP_FA">
+				<Original>[203rd] Uniform(Half-Camo |Full)</Original>
+				<English>[203rd] Uniform(Half-Camo |Full)</English>
+				<Russian>[203ий] Униформа(Полу-Камо|Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT">
+				<Original>[203rd] Uniform(SGT)</Original>
+				<English>[203rd] Uniform(SGT)</English>
+				<Russian>[203ий] Униформа(СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Camo">
+				<Original>[203rd] Uniform(SGT|Camo)</Original>
+				<English>[203rd] Uniform(SGT|Camo)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Камо)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Half_Camo">
+				<Original>[203rd] Uniform(SGT|Half-Camo)</Original>
+				<English>[203rd] Uniform(SGT|Half-Camo)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Полу-Камо)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_KP">
+				<Original>[203rd] Uniform(SGT|Knee Pads)</Original>
+				<English>[203rd] Uniform(SGT|Knee Pads)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Camo_KP">
+				<Original>[203rd] Uniform(SGT|Camo|Knee Pads)</Original>
+				<English>[203rd] Uniform(SGT|Camo|Knee Pads)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Half_Camo_KP">
+				<Original>[203rd] Uniform(SGT|Half-Camo|Knee Pads)</Original>
+				<English>[203rd] Uniform(SGT|Half-Camo|Knee Pads)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Полу-Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_KP_BRAC">
+				<Original>[203rd] Uniform(SGT|Knee Pads|Bracers)</Original>
+				<English>[203rd] Uniform(SGT|Knee Pads|Bracers)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Наколенники|Наручи)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_KP_TA">
+				<Original>[203rd] Uniform(SGT|Half Armor)</Original>
+				<English>[203rd] Uniform(SGT|Half Armor)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Camo_KP_TA">
+				<Original>[203rd] Uniform(SGT|Camo|Half Armor)</Original>
+				<English>[203rd] Uniform(SGT|Camo|Half Armor)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Камо|Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Half_Camo_KP_TA">
+				<Original>[203rd] Uniform(SGT|Half-Camo |Half Armor)</Original>
+				<English>[203rd] Uniform(SGT|Half-Camo |Half Armor)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Полу-Камо|Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_KP_FA">
+				<Original>[203rd] Uniform(SGT|Full)</Original>
+				<English>[203rd] Uniform(SGT|Full)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Camo_KP_FA">
+				<Original>[203rd] Uniform(SGT|Camo|Full)</Original>
+				<English>[203rd] Uniform(SGT|Camo|Full)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Камо|Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Half_Camo_KP_FA">
+				<Original>[203rd] Uniform(SGT|Half-Camo |Full)</Original>
+				<English>[203rd] Uniform(SGT|Half-Camo |Full)</English>
+				<Russian>[203ий] Униформа(СЕРЖ|Полу-Камо|Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Overcoat">
+				<Original>[203rd]Uniform(Parka)</Original>
+				<English>[203rd]Uniform(Parka)</English>
+				<Russian>[203ий]Униформа(Парка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Overcoat_Camo">
+				<Original>[203rd]Uniform(Parka|Camo)</Original>
+				<English>[203rd]Uniform(Parka|Camo)</English>
+				<Russian>[203ий]Униформа(Парка|Камо)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_SGT_Overcoat_Camo">
+				<Original>[203rd]Uniform(SGT|Parka)</Original>
+				<English>[203rd]Uniform(SGT|Parka)</English>
+				<Russian>[203ий]Униформа(СЕРЖ|Парка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_OFC">
+				<Original>[203rd] Officer Uniform</Original>
+				<English>[203rd] Officer Uniform</English>
+				<Russian>[203ий] Офицерская Униформа</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_PSY">
+				<Original>[203rd] Psyker Uniform</Original>
+				<English>[203rd] Psyker Uniform</English>
+				<Russian>[203ий] Псайкерская Униформа</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R">
+				<Original>[203rd] Uniform(Rolled)</Original>
+				<English>[203rd] Uniform(Rolled)</English>
+				<Russian>[203ий] Униформа(Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_Camo">
+				<Original>[203rd] Uniform(Camo|Rolled)</Original>
+				<English>[203rd] Uniform(Camo|Rolled)</English>
+				<Russian>[203ий] Униформа(Камо|Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_Half_Camo">
+				<Original>[203rd] Uniform(Half-Camo|Rolled)</Original>
+				<English>[203rd] Uniform(Half-Camo|Rolled)</English>
+				<Russian>[203ий] Униформа(Полу-Камо |Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_KP">
+				<Original>[203rd] Uniform(Knee Pads|Rolled)</Original>
+				<English>[203rd] Uniform(Knee Pads|Rolled)</English>
+				<Russian>[203ий] Униформа(Наколенники |Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_Camo_KP">
+				<Original>[203rd] Uniform(Camo|Knee Pads|Rolled)</Original>
+				<English>[203rd] Uniform(Camo|Knee Pads|Rolled)</English>
+				<Russian>[203ий] Униформа(Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_Half_Camo_KP">
+				<Original>[203rd] Uniform(Half-Camo|Knee Pads|Rolled)</Original>
+				<English>[203rd] Uniform(Half-Camo|Knee Pads|Rolled)</English>
+				<Russian>[203ий] Униформа(Полу-Камо|Наколенники|Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_KP_TA">
+				<Original>[203rd] Uniform(Half Armor|Rolled)</Original>
+				<English>[203rd] Uniform(Half Armor|Rolled)</English>
+				<Russian>[203ий] Униформа(Полу защита|Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_Camo_KP_TA">
+				<Original>[203rd] Uniform(Camo|Half Armor|Rolled)</Original>
+				<English>[203rd] Uniform(Camo|Half Armor|Rolled)</English>
+				<Russian>[203ий] Униформа(Камо|Полу защита |Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_R_Half_Camo_KP_TA">
+				<Original>[203rd] Uniform(Half-Camo|Half Armor|Rolled)</Original>
+				<English>[203rd] Uniform(Half-Camo|Half Armor|Rolled)</English>
+				<Russian>[203ий] Униформа(Полу-Камо|Полу защита |Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_KP">
+				<Original>[203rd] Medicae Uniform(Knee Pads)</Original>
+				<English>[203rd] Medicae Uniform(Knee Pads)</English>
+				<Russian>[203ий] Униформа Медикае(Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Camo_KP">
+				<Original>[203rd] Medicae Uniform(Camo|Knee Pads)</Original>
+				<English>[203rd] Medicae Uniform(Camo|Knee Pads)</English>
+				<Russian>[203ий] Униформа Медикае(Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Half_Camo_KP">
+				<Original>[203rd] Medicae Uniform(Half-Camo|Knee Pads)</Original>
+				<English>[203rd] Medicae Uniform(Half-Camo|Knee Pads)</English>
+				<Russian>[203ий] Униформа Медикае(Полу-Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_KP_TA">
+				<Original>[203rd] Medicae Uniform(Half Armor)</Original>
+				<English>[203rd] Medicae Uniform(Half Armor)</English>
+				<Russian>[203ий] Униформа Медикае(Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Camo_KP_TA">
+				<Original>[203rd] Medicae Uniform(Camo|Half Armor)</Original>
+				<English>[203rd] Medicae Uniform(Camo|Half Armor)</English>
+				<Russian>[203ий] Униформа Медикае(Камо|Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Half_Camo_KP_TA">
+				<Original>[203rd] Medicae Uniform(Half-Camo |Half Armor)</Original>
+				<English>[203rd] Medicae Uniform(Half-Camo |Half Armor)</English>
+				<Russian>[203ий] Униформа Медикае(Полу-Камо|Полу защита)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_KP_FA">
+				<Original>[203rd] Medicae Uniform(Full)</Original>
+				<English>[203rd] Medicae Uniform(Full)</English>
+				<Russian>[203ий] Униформа Медикае(Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Camo_KP_FA">
+				<Original>[203rd] Medicae Uniform(Camo|Full)</Original>
+				<English>[203rd] Medicae Uniform(Camo|Full)</English>
+				<Russian>[203ий] Униформа Медикае(Камо|Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Half_Camo_KP_FA">
+				<Original>[203rd] Medicae Uniform(Half-Camo |Full)</Original>
+				<English>[203rd] Medicae Uniform(Half-Camo |Full)</English>
+				<Russian>[203ий] Униформа Медикае(Полу-Камо|Полная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Overcoat">
+				<Original>[203rd] MED Uniform(Parka)</Original>
+				<English>[203rd] MED Uniform(Parka)</English>
+				<Russian>[203ий] Униформа Медикае(Парка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_Overcoat_Camo">
+				<Original>[203rd] MED Uniform(Parka|Camo)</Original>
+				<English>[203rd] MED Uniform(Parka|Camo)</English>
+				<Russian>[203ий]Униформа Медикае(Парка|Камо)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_R_KP">
+				<Original>[203rd] Medicae Uniform(Knee Pads|Rolled)</Original>
+				<English>[203rd] Medicae Uniform(Knee Pads|Rolled)</English>
+				<Russian>[203ий] Униформа Медикае(Наколенники |Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_R_Camo_KP">
+				<Original>[203rd] Medicae Uniform(Camo|Knee Pads|Rolled)</Original>
+				<English>[203rd] Medicae Uniform(Camo|Knee Pads|Rolled)</English>
+				<Russian>[203ий] Униформа Медикае(Камо|Наколенники)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_R_Half_Camo_KP">
+				<Original>[203rd] Medicae Uniform(Half-Camo|Knee Pads|Rolled)</Original>
+				<English>[203rd] Medicae Uniform(Half-Camo|Knee Pads|Rolled)</English>
+				<Russian>[203ий] Униформа Медикае(Полу-Камо|Наколенники|Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_R_KP_TA">
+				<Original>[203rd] Medicae Uniform(Half Armor|Rolled)</Original>
+				<English>[203rd] Medicae Uniform(Half Armor|Rolled)</English>
+				<Russian>[203ий] Униформа Медикае(Полу защита|Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_R_Camo_KP_TA">
+				<Original>[203rd] Medicae Uniform(Camo|Half Armor|Rolled)</Original>
+				<English>[203rd] Medicae Uniform(Camo|Half Armor|Rolled)</English>
+				<Russian>[203ий] Униформа Медикае(Камо|Полу защита |Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_R_Half_Camo_KP_TA">
+				<Original>[203rd] Medicae Uniform(Half-Camo|Half Armor|Rolled)</Original>
+				<English>[203rd] Medicae Uniform(Half-Camo|Half Armor|Rolled)</English>
+				<Russian>[203ий] Униформа Медикае(Полу-Камо|Полу защита |Закатанная)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Kasr">
+				<Original>[203rd] Kasrkin Uniform</Original>
+				<English>[203rd] Kasrkin Uniform</English>
+				<Russian>[203ий] Униформа Касркинов</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_Kasr_Camo">
+				<Original>[203rd] Kasrkin Uniform(Camo)</Original>
+				<English>[203rd] Kasrkin Uniform(Camo)</English>
+				<Russian>[203ий] Униформа Касркинов(Камо)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Uni_M_KP_BRAC">
+				<Original>[203rd] Uniform(Knee Pads, Bracers)</Original>
+				<English>[203rd] Uniform(Knee Pads, Bracers)</English>
+				<Russian>[203ий] Униформа(Наколенники, Наручи)</Russian>
+			</Key>
+		</Container name="Helmets Localization">
+		<Container name="Helmet Localization">
+			<Key ID="STR_TAG_203rdMW_Helm_PatCap">
+				<Original>[203rd] Patrol Cap</Original>
+				<English>[203rd] Patrol Cap</English>
+				<Russian>[203ий] Полевая Кепи</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Beret">
+				<Original>[203rd] Beret</Original>
+				<English>[203rd] Beret</English>
+				<Russian>[203ий] Берет</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_OFC_Cap">
+				<Original>[203rd] Officer Cap</Original>
+				<English>[203rd] Officer Cap</English>
+				<Russian>[203ий] Офицерская Фуражка</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Tanker_Cap">
+				<Original>[203rd] Tanker Cap</Original>
+				<English>[203rd] Tanker Cap</English>
+				<Russian>[203ий] Шлемофон</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm">
+				<Original>[203rd] Flak Helmet</Original>
+				<English>[203rd] Flak Helmet</English>
+				<Russian>[203ий] Флак Шлем</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Reb">
+				<Original>[203rd] Flak Helmet(Rebreather)</Original>
+				<English>[203rd] Flak Helmet(Rebreather)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_RebV2">
+				<Original>[203rd] Flak Helmet(Rebreather, V2)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_RebV2_NV">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Non Visor)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Non Visor)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер,|Без визора)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_GU">
+				<Original>[203rd] Flak Helmet(Googles Up)</Original>
+				<English>[203rd] Flak Helmet(Googles Up)</English>
+				<Russian>[203ий] Флак Шлем(Очки подняты)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_GD">
+				<Original>[203rd] Flak Helmet(Googles Down)</Original>
+				<English>[203rd] Flak Helmet(Googles Down)</English>
+				<Russian>[203ий] Флак Шлем(Очки Опущены)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_M">
+				<Original>[203rd] Flak Helmet MED</Original>
+				<English>[203rd] Flak Helmet MED</English>
+				<Russian>[203ий] Флак Шлем МЕД</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_M_Reb">
+				<Original>[203rd] Flak Helmet MED(Rebreather)</Original>
+				<English>[203rd] Flak Helmet MED(Rebreather)</English>
+				<Russian>[203ий] Флак Шлем МЕД(Ребризер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_M_RebV2">
+				<Original>[203rd] Flak Helmet MED(Rebreather, V2)</Original>
+				<English>[203rd] Flak Helmet MED(Rebreather, V2)</English>
+				<Russian>[203ий] Флак Шлем МЕД(Ребризер, В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_M_RebV2_NV">
+				<Original>[203rd] Flak Helmet MED(Rebreather, V2|Non Visor)</Original>
+				<English>[203rd] Flak Helmet MED(Rebreather, V2|Non Visor)</English>
+				<Russian>[203ий] Флак Шлем МЕД(Ребризер,|Без визора)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_M_GU">
+				<Original>[203rd] Flak Helmet MED(Googles Up)</Original>
+				<English>[203rd] Flak Helmet MED(Googles Up)</English>
+				<Russian>[203ий] Флак Шлем МЕД(Очки подняты)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_M_GD">
+				<Original>[203rd] Flak Helmet MED(Googles Down)</Original>
+				<English>[203rd] Flak Helmet MED(Googles Down)</English>
+				<Russian>[203ий] Флак Шлем МЕД(Очки Опущены)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_WS">
+				<Original>[203rd] Flak Helmet(White Shield)</Original>
+				<English>[203rd] Flak Helmet(White Shield)</English>
+				<Russian>[203ий] Флак Шлем(Белый Щит)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_WS_Reb">
+				<Original>[203rd] Flak Helmet(Rebreather|White Shield)</Original>
+				<English>[203rd] Flak Helmet(Rebreather|White Shield)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|Белый Щит)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_WS_RebV2">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|White Shield)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|White Shield)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2|Белый Щит)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_WS_RebV2_NV">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Non Visor|White Shield)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Non Visor|White Shield)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|Без визора|Белый Щит)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_WS_GU">
+				<Original>[203rd] Flak Helmet(Googles Up|White Shield)</Original>
+				<English>[203rd] Flak Helmet(Googles Up|White Shield)</English>
+				<Russian>[203ий] Флак Шлем(Очки подняты|Белый Щит)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_WS_GD">
+				<Original>[203rd] Flak Helmet(Googles Down|White Shield)</Original>
+				<English>[203rd] Flak Helmet(Googles Down|White Shield)</English>
+				<Russian>[203ий] Флак Шлем(Очки Опущены|Белый Щит)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT">
+				<Original>[203rd] Flak Helmet(SGT)</Original>
+				<English>[203rd] Flak Helmet(SGT)</English>
+				<Russian>[203ий] Флак Шлем(СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_Muller">
+				<Original>[203rd] Flak Helmet(SGT|Muller)</Original>
+				<English>[203rd] Flak Helmet(SGT|Muller)</English>
+				<Russian>[203ий] Флак Шлем(СЕРЖ|Мюллер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_Reb">
+				<Original>[203rd] Flak Helmet(Rebreather|SGT)</Original>
+				<English>[203rd] Flak Helmet(Rebreather|SGT)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_RebV2">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|SGT)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|SGT)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2|СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_RebV2_Muller">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|SGT|Muller)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|SGT|Muller)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2|СЕРЖ|Мюллер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_RebV2_NV">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Non Visor|SGT)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Non Visor|SGT)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|Без визора|СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_GU">
+				<Original>[203rd] Flak Helmet(Googles Up|SGT)</Original>
+				<English>[203rd] Flak Helmet(Googles Up|SGT)</English>
+				<Russian>[203ий] Флак Шлем(Очки подняты|СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_GU_Muller">
+				<Original>[203rd] Flak Helmet(Googles Up|SGT|Muller)</Original>
+				<English>[203rd] Flak Helmet(Googles Up|SGT|Muller)</English>
+				<Russian>[203ий] Флак Шлем(Очки подняты|СЕРЖ|Мюллер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_GD">
+				<Original>[203rd] Flak Helmet(Googles Down|SGT)</Original>
+				<English>[203rd] Flak Helmet(Googles Down|SGT)</English>
+				<Russian>[203ий] Флак Шлем(Очки Опущены|СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_MED">
+				<Original>[203rd] Flak Helmet(SGT|MED)</Original>
+				<English>[203rd] Flak Helmet(SGT|MED)</English>
+				<Russian>[203ий] Флак Шлем(СЕРЖ|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_MED_Reb">
+				<Original>[203rd] Flak Helmet(Rebreather|SGT|MED)</Original>
+				<English>[203rd] Flak Helmet(Rebreather|SGT|MED)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|СЕРЖ)|МЕД</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_MED_RebV2">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|SGT|MED)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|SGT|MED)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2|СЕРЖ|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_MED_RebV2_NV">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Non Visor|SGT)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Non Visor|SGT)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|Без визора|СЕРЖ|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_MED_GU">
+				<Original>[203rd] Flak Helmet(Googles Up|SGT|MED)</Original>
+				<English>[203rd] Flak Helmet(Googles Up|SGT|MED)</English>
+				<Russian>[203ий] Флак Шлем(Очки подняты|СЕРЖ|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_SGT_MED_GD">
+				<Original>[203rd] Flak Helmet(Googles Down|SGT|MED)</Original>
+				<English>[203rd] Flak Helmet(Googles Down|SGT|MED)</English>
+				<Russian>[203ий] Флак Шлем(Очки Опущены|СЕРЖ|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_OFC">
+				<Original>[203rd] Flak Helmet(Officer)</Original>
+				<English>[203rd] Flak Helmet(Officer)</English>
+				<Russian>[203ий] Флак Шлем(Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_OFC_Reb">
+				<Original>[203rd] Flak Helmet(Rebreather|Officer)</Original>
+				<English>[203rd] Flak Helmet(Rebreather|Officer)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_OFC_RebV2">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Officer)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Officer)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2|Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_OFC_RebV2_NV">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Non Visor|Officer)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Non Visor|Officer)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|Без визора|Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_OFC_GU">
+				<Original>[203rd] Flak Helmet(Googles Up|Officer)</Original>
+				<English>[203rd] Flak Helmet(Googles Up|Officer)</English>
+				<Russian>[203ий] Флак Шлем(Очки подняты|Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_OFC_GD">
+				<Original>[203rd] Flak Helmet(Googles Down|Officer)</Original>
+				<English>[203rd] Flak Helmet(Googles Down|Officer)</English>
+				<Russian>[203ий] Флак Шлем(Очки Опущены|Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Kasr">
+				<Original>[203rd] Flak Helmet(Kasrkin)</Original>
+				<English>[203rd] Flak Helmet(Kasrkin)</English>
+				<Russian>[203ий] Флак Шлем(Касркин)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Kasr_RebV2">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Kasrkin)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Kasrkin)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2|Касркин)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Kasr_RebV2_NV">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|Non Visor|Kasrkin)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|Non Visor|Kasrkin)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер|Без визора|Касркин)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Kasr_Serg">
+				<Original>[203rd] Flak Helmet(SGT|Kasrkin)</Original>
+				<English>[203rd] Flak Helmet(SGT|Kasrkin)</English>
+				<Russian>[203ий] Флак Шлем(СЕРЖ|Касркин)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Kasr_Serg_RebV2">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|SGT|Kasrkin)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|SGT|Kasrkin)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер, В2|СЕРЖ|Касркин)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Kasr_Serg_RebV2_NV">
+				<Original>[203rd] Flak Helmet(Rebreather, V2|SGT|Non Visor|Kasrkin)</Original>
+				<English>[203rd] Flak Helmet(Rebreather, V2|SGT|Non Visor|Kasrkin)</English>
+				<Russian>[203ий] Флак Шлем(Ребризер В2|СЕРЖ|Без визора|Касркин)</Russian>
+			</Key>
+		</Container>
+		<Container name="Vest Localization">
+			<Key ID="STR_TAG_203rdMW_Vest_Crew">
+				<Original>[203rd] Flakweave Vest</Original>
+				<English>[203rd] Flakweave Vest</English>
+				<Russian>[203ий] Облегченный Флак-жилет</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V0">
+				<Original>[203rd] Flak Vest</Original>
+				<English>[203rd] Flak Vest</English>
+				<Russian>[203ий] Флак-жилет</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V1">
+				<Original>[203rd] Flak Vest(V1)</Original>
+				<English>[203rd] Flak Vest(V1)</English>
+				<Russian>[203ий] Флак-жилет(В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V2">
+				<Original>[203rd] Flak Vest(V2)</Original>
+				<English>[203rd] Flak Vest(V2)</English>
+				<Russian>[203ий] Флак-жилет(В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V2_Zubastik">
+				<Original>[203rd] Flak Vest(V2, Zubastik)</Original>
+				<English>[203rd] Flak Vest(V2, Zubastik)</English>
+				<Russian>[203ий] Флак-жилет(В2, Зубастик)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V3">
+				<Original>[203rd] Flak Vest(V3)</Original>
+				<English>[203rd] Flak Vest(V3)</English>
+				<Russian>[203ий] Флак-жилет(В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V4">
+				<Original>[203rd] Flak Vest(V4)</Original>
+				<English>[203rd] Flak Vest(V4)</English>
+				<Russian>[203ий] Флак-жилет(В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_V0">
+				<Original>[203rd] Flak Vest(MED)</Original>
+				<English>[203rd] Flak Vest(MED)</English>
+				<Russian>[203ий] Флак-жилет(МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_V1">
+				<Original>[203rd] Flak Vest(MED|V1)</Original>
+				<English>[203rd] Flak Vest(MED|V1)</English>
+				<Russian>[203ий] Флак-жилет(МЕД|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_V2">
+				<Original>[203rd] Flak Vest(MED|V2)</Original>
+				<English>[203rd] Flak Vest(MED|V2)</English>
+				<Russian>[203ий] Флак-жилет(МЕД|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_V3">
+				<Original>[203rd] Flak Vest(MED|V3)</Original>
+				<English>[203rd] Flak Vest(MED|V3)</English>
+				<Russian>[203ий] Флак-жилет(МЕД|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_V4">
+				<Original>[203rd] Flak Vest(MED|V4)</Original>
+				<English>[203rd] Flak Vest(MED|V4)</English>
+				<Russian>[203ий] Флак-жилет(МЕД|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_Vet_V0">
+				<Original>[203rd] Flak Vest(VET|MED)</Original>
+				<English>[203rd] Flak Vest(VET|MED)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_Vet_V1">
+				<Original>[203rd] Flak Vest(VET|MED|V1)</Original>
+				<English>[203rd] Flak Vest(VET|MED|V1)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|МЕД|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_Vet_V2">
+				<Original>[203rd] Flak Vest(VET|MED|V2)</Original>
+				<English>[203rd] Flak Vest(VET|MED|V2)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|МЕД|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_Vet_V3">
+				<Original>[203rd] Flak Vest(VET|MED|V3)</Original>
+				<English>[203rd] Flak Vest(VET|MED|V3)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|МЕД|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_M_Vet_V4">
+				<Original>[203rd] Flak Vest(MED|V4)</Original>
+				<English>[203rd] Flak Vest(MED|V4)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|МЕД|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Vet_V0">
+				<Original>[203rd] Flak Vest(VET)</Original>
+				<English>[203rd] Flak Vest(VET)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Vet_V1">
+				<Original>[203rd] Flak Vest(VET|V1)</Original>
+				<English>[203rd] Flak Vest(VET|V1)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ| В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Vet_V2">
+				<Original>[203rd] Flak Vest(VET|V2)</Original>
+				<English>[203rd] Flak Vest(VET|V2)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ| В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Vet_V3">
+				<Original>[203rd] Flak Vest(VET|V3)</Original>
+				<English>[203rd] Flak Vest(VET|V3)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Vet_V4">
+				<Original>[203rd] Flak Vest(VET|V4)</Original>
+				<English>[203rd] Flak Vest(VET|V4)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_V0">
+				<Original>[203rd] Flak Vest(SGT)</Original>
+				<English>[203rd] Flak Vest(SGT)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_V1">
+				<Original>[203rd] Flak Vest(SGT|V1)</Original>
+				<English>[203rd] Flak Vest(SGT|V1)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_V2">
+				<Original>[203rd] Flak Vest(SGT|V2)</Original>
+				<English>[203rd] Flak Vest(SGT|V2)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_V3">
+				<Original>[203rd] Flak Vest(SGT|V3)</Original>
+				<English>[203rd] Flak Vest(SGT|V3)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_V3_Muller">
+				<Original>[203rd] Flak Vest(SGT|V3|Muller)</Original>
+				<English>[203rd] Flak Vest(SGT|V3|Muller)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|В3|Мюллер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_V4">
+				<Original>[203rd] Flak Vest(SWT|V4)</Original>
+				<English>[203rd] Flak Vest(SWT|V4)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_MED_V0">
+				<Original>[203rd] Flak Vest(SGT|MED)</Original>
+				<English>[203rd] Flak Vest(SGT|MED)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_MED_V1">
+				<Original>[203rd] Flak Vest(SGT|MED|V1)</Original>
+				<English>[203rd] Flak Vest(SGT|MED|V1)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|МЕД|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_MED_V2">
+				<Original>[203rd] Flak Vest(SGT|MED|V2)</Original>
+				<English>[203rd] Flak Vest(SGT|MED|V2)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|МЕД|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_MED_V3">
+				<Original>[203rd] Flak Vest(SGT|MED|V3)</Original>
+				<English>[203rd] Flak Vest(SGT|MED|V3)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|МЕД|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_MED_V3_Muller">
+				<Original>[203rd] Flak Vest(SGT|V3|Muller)</Original>
+				<English>[203rd] Flak Vest(SGT|V3|Muller)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|МЕД|В3|Мюллер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SGT_MED_V4">
+				<Original>[203rd] Flak Vest(SWT|V4)</Original>
+				<English>[203rd] Flak Vest(SWT|V4)</English>
+				<Russian>[203ий] Флак-жилет(СЕРЖ|МЕД|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_OFC_V0">
+				<Original>[203rd] Flak Vest(Officer)</Original>
+				<English>[203rd] Flak Vest(Officer)</English>
+				<Russian>[203ий] Флак-жилет(Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_OFC_V1">
+				<Original>[203rd] Flak Vest(Officer|V1)</Original>
+				<English>[203rd] Flak Vest(Officer|V1)</English>
+				<Russian>[203ий] Флак-жилет(Офицер|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_OFC_V2">
+				<Original>[203rd] Flak Vest(Officer|V2)</Original>
+				<English>[203rd] Flak Vest(Officer|V2)</English>
+				<Russian>[203ий] Флак-жилет(Офицер|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_OFC_V3">
+				<Original>[203rd] Flak Vest(Officer|V3)</Original>
+				<English>[203rd] Flak Vest(Officer|V3)</English>
+				<Russian>[203ий] Флак-жилет(Офицер|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_OFC_V3_SOLNCELIKIY_KOMANDIR_KAPITAN_FON_KRASS">
+				<Original>[203rd] Flak Vest(Officer|V3|Fon Krass)</Original>
+				<English>[203rd] Flak Vest(Officer|V3|Fon Krass)</English>
+				<Russian>[203ий] Флак-жилет(Офицер|В3|фон Красс)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_OFC_V4">
+				<Original>[203rd] Flak Vest(Officer|V4)</Original>
+				<English>[203rd] Flak Vest(Officer|V4)</English>
+				<Russian>[203ий] Флак-жилет(Офицер|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_OFC_V4_Brimmy_Shmimmy">
+				<Original>[203rd] Flak Vest(Officer|V4|Rover)</Original>
+				<English>[203rd] Flak Vest(Officer|V4|Rover)</English>
+				<Russian>[203ий] Флак-жилет(Офицер|В4|Ровер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_V0">
+				<Original>[203rd] Flak Vest(SWT)</Original>
+				<English>[203rd] Flak Vest(SWT)</English>
+				<Russian>[203ий] Флак-жилет(Спецы)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_V1">
+				<Original>[203rd] Flak Vest(SWT|V1)</Original>
+				<English>[203rd] Flak Vest(SWT|V1)</English>
+				<Russian>[203ий] Флак-жилет(Спецы|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_V2">
+				<Original>[203rd] Flak Vest(SWT|V2)</Original>
+				<English>[203rd] Flak Vest(SWT|V2)</English>
+				<Russian>[203ий] Флак-жилет(Спецы|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_V3">
+				<Original>[203rd] Flak Vest(SWT|V3)</Original>
+				<English>[203rd] Flak Vest(SWT|V3)</English>
+				<Russian>[203ий] Флак-жилет(Спецы|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_V4">
+				<Original>[203rd] Flak Vest(SWT|V4)</Original>
+				<English>[203rd] Flak Vest(SWT|V4)</English>
+				<Russian>[203ий] Флак-жилет(Спецы|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_VET_V0">
+				<Original>[203rd] Flak Vest(VET|SWT)</Original>
+				<English>[203rd] Flak Vest(VET|SWT)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Спецы)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_VET_V1">
+				<Original>[203rd] Flak Vest(VET|SWT|V1)</Original>
+				<English>[203rd] Flak Vest(VET|SWT|V1)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Спецы|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_VET_V2">
+				<Original>[203rd] Flak Vest(VET|SWT|V2)</Original>
+				<English>[203rd] Flak Vest(VET|SWT|V2)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Спецы|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_VET_V3">
+				<Original>[203rd] Flak Vest(VET|SWT|V3)</Original>
+				<English>[203rd] Flak Vest(VET|SWT|V3)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Спецы|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_SPC_VET_V4">
+				<Original>[203rd] Flak Vest(VET|SWT|V4)</Original>
+				<English>[203rd] Flak Vest(VET|SWT|V4)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Спецы|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_V0">
+				<Original>[203rd] Flak Vest(HWT)</Original>
+				<English>[203rd] Flak Vest(HWT)</English>
+				<Russian>[203ий] Флак-жилет(Тяжи)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_V1">
+				<Original>[203rd] Flak Vest(HWT|V1)</Original>
+				<English>[203rd] Flak Vest(HWT|V1)</English>
+				<Russian>[203ий] Флак-жилет(Тяжи|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_V2">
+				<Original>[203rd] Flak Vest(HWT|V2)</Original>
+				<English>[203rd] Flak Vest(HWT|V2)</English>
+				<Russian>[203ий] Флак-жилет(Тяжи|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_V3">
+				<Original>[203rd] Flak Vest(HWT|V3)</Original>
+				<English>[203rd] Flak Vest(HWT|V3)</English>
+				<Russian>[203ий] Флак-жилет(Тяжи|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_V4">
+				<Original>[203rd] Flak Vest(HWT|V4)</Original>
+				<English>[203rd] Flak Vest(HWT|V4)</English>
+				<Russian>[203ий] Флак-жилет(Тяжи|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_VET_V0">
+				<Original>[203rd] Flak Vest(VET|HWT)</Original>
+				<English>[203rd] Flak Vest(VET|HWT)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Тяжи)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_VET_V1">
+				<Original>[203rd] Flak Vest(VET|HWT|V1)</Original>
+				<English>[203rd] Flak Vest(VET|HWT|V1)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Тяжи|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_VET_V2">
+				<Original>[203rd] Flak Vest(VET|HWT|V2)</Original>
+				<English>[203rd] Flak Vest(VET|HWT|V2)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Тяжи|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_VET_V3">
+				<Original>[203rd] Flak Vest(VET|HWT|V3)</Original>
+				<English>[203rd] Flak Vest(VET|HWT|V3)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Тяжи|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_HWT_VET_V4">
+				<Original>[203rd] Flak Vest(VET|HWT|V4)</Original>
+				<English>[203rd] Flak Vest(VET|HWT|V4)</English>
+				<Russian>[203ий] Флак-жилет(ВЕТ|Тяжи|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr">
+				<Original>[203rd] Flak Vest(Kasrkin)</Original>
+				<English>[203rd] Flak Vest(Kasrkin)</English>
+				<Russian>[203ий] Флак-жилет(Касркин)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_Med">
+				<Original>[203rd] Flak Vest(Kasrkin|MED)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|MED)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|МЕД)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_Med_VET">
+				<Original>[203rd] Flak Vest(Kasrkin|MED|VET)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|MED|VET)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|МЕД|ВЕТ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_VET">
+				<Original>[203rd] Flak Vest(Kasrkin|VET)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|VET)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|ВЕТ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_SGT">
+				<Original>[203rd] Flak Vest(Kasrkin|SGT)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|SGT)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|СЕРЖ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_SGT_Steel">
+				<Original>[203rd] Flak Vest(Kasrkin|SGT|Steel)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|SGT|Steel)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|СЕРЖ|Стилл)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_SWT">
+				<Original>[203rd] Flak Vest(Kasrkin|SWT)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|SWT)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|Спецы)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_HWT">
+				<Original>[203rd] Flak Vest(Kasrkin|HWT)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|HWT)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|Тяжи)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_SWT_VET">
+				<Original>[203rd] Flak Vest(Kasrkin|SWT|VET)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|SWT|VET)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|Спецы|ВЕТ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Kasr_HWT_VET">
+				<Original>[203rd] Flak Vest(Kasrkin|HWT|VET)</Original>
+				<English>[203rd] Flak Vest(Kasrkin|HWT|VET)</English>
+				<Russian>[203ий] Флак-жилет(Касркин|Тяжи|ВЕТ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_L_V0">
+				<Original>[203rd] Flak Vest(Light)</Original>
+				<English>[203rd] Flak Vest(Light)</English>
+				<Russian>[203ий] Флак-жилет(Легкий)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_L_PSY">
+				<Original>[203rd] Flak Vest(Psyker)</Original>
+				<English>[203rd] Flak Vest(Psyker)</English>
+				<Russian>[203ий] Флак-жилет(Псайкер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_L_V1">
+				<Original>[203rd] Flak Vest(Light|V1)</Original>
+				<English>[203rd] Flak Vest(Light|V1)</English>
+				<Russian>[203ий] Флак-жилет(Легкий|В1)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_L_V2">
+				<Original>[203rd] Flak Vest(Light|V2)</Original>
+				<English>[203rd] Flak Vest(Light|V2)</English>
+				<Russian>[203ий] Флак-жилет(Легкий|В2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_L_V3">
+				<Original>[203rd] Flak Vest(Light|V3)</Original>
+				<English>[203rd] Flak Vest(Light|V3)</English>
+				<Russian>[203ий] Флак-жилет(Легкий|В3)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_L_V4">
+				<Original>[203rd] Flak Vest(Light|V4)</Original>
+				<English>[203rd] Flak Vest(Light|V4)</English>
+				<Russian>[203ий] Флак-жилет(Легкий|В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Heavy_Officer">
+				<Original>[203rd] Flak Vest(Heavy|Officer)</Original>
+				<English>[203rd] Flak Vest(Heavy|Officer)</English>
+				<Russian>[203ий] Флак-жилет(Тяжелый|Офицер)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Heavy_Officer_SOLNCELIKIY_KOMANDIR_KAPITAN_FON_KRASS">
+				<Original>[203rd] Flak Vest(Heavy|Officer|fon Krass)</Original>
+				<English>[203rd] Flak Vest(Heavy|Officer|fon Krass)</English>
+				<Russian>[203ий] Флак-жилет(Тяжелый|Офицер|фон Красс)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Heavy_Veteran">
+				<Original>[203rd] Flak Vest(Heavy|Veteran)</Original>
+				<English>[203rd] Flak Vest(Heavy|Veteran)</English>
+				<Russian>[203ий] Флак-жилет(Тяжелый|Ветеран)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_Heavy_Sergeant">
+				<Original>[203rd] Flak Vest(Heavy|Sergeant)</Original>
+				<English>[203rd] Flak Vest(Heavy|Sergeant)</English>
+				<Russian>[203ий] Флак-жилет(Тяжелый|Сержант)</Russian>
+			</Key>
+		</Container>
+		<Container name="Glasses Localization">
+			<Key ID="STR_TAG_203rdMW_Glasses_Headwrap_Full">
+				<Original>[203rd] Headwrap(Face Hidden)</Original>
+				<English>[203rd] Headwrap(Face Hidden)</English>
+				<Russian>[203ий] Балаклава(Лицо закрыто)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Glasses_Headwrap">
+				<Original>[203rd] Headwrap(Face revealed)</Original>
+				<English>[203rd] Headwrap(Face revealed)</English>
+				<Russian>[203ий] Балаклава(Лицо открыто)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Glasses_Bandolier">
+				<Original>[203rd] Bandolier</Original>
+				<English>[203rd] Bandolier</English>
+				<Russian>[203ий] Бандольера</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Glasses_Webbing">
+				<Original>[203rd] Webbing</Original>
+				<English>[203rd] Webbing</English>
+				<Russian>[203ий] Разгрузка</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Glasses_Cloak">
+				<Original>[203rd] Cloack</Original>
+				<English>[203rd] Cloack</English>
+				<Russian>[203ий] Плащ</Russian>
+			</Key>
+		</Container>
+		<Container name="Backpacks Localization">
+			<Key ID="STR_TAG_203rdMW_Backpack_Invisible">
+				<Original>[203rd] Invisible Backpack</Original>
+				<English>[203rd] Invisible Backpack</English>
+				<Russian>[203ий] Рюкзак-невидимка</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Standart">
+				<Original>[203rd] Field Backpack</Original>
+				<English>[203rd] Field Backpack</English>
+				<Russian>[203ий] Полевой Рюкзак</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Webbing">
+				<Original>[203rd] Webbing</Original>
+				<English>[203rd] Webbing</English>
+				<Russian>[203ий] Разгрузка</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Webbing_V2">
+				<Original>[203rd] Webbing V2</Original>
+				<English>[203rd] Webbing V2</English>
+				<Russian>[203ий] Разгрузка(Альт)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Bandolier">
+				<Original>[203rd] Bandolier</Original>
+				<English>[203rd] Bandolier</English>
+				<Russian>[203ий] Бандольера</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Webbing_V3">
+				<Original>[203rd] Webbing V3</Original>
+				<English>[203rd] Webbing V3</English>
+				<Russian>[203ий] Разгрузка(Альт 2)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Light">
+				<Original>[203rd] Light Backpack</Original>
+				<English>[203rd] Light Backpack</English>
+				<Russian>[203ий] Штурмовой Рюкзак</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Light_Knife">
+				<Original>[203rd] Light Backpack(Knife)</Original>
+				<English>[203rd] Light Backpack(Knife)</English>
+				<Russian>[203ий] Штурмовой Рюкзак(Ножны)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Vox">
+				<Original>[203rd] Vox caster</Original>
+				<English>[203rd] Vox caster</English>
+				<Russian>[203ий] Вокс-кастер</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum">
+				<Original>[203rd] "Munitorum" Backpack</Original>
+				<English>[203rd] "Munitorum" Backpack</English>
+				<Russian>[203ий] Рюкзак "Муниторум"</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_MED">
+				<Original>[203rd] "Munitorum" Medica Backpack</Original>
+				<English>[203rd] "Munitorum" Medicae Backpack</English>
+				<Russian>[203ий] Рюкзак Медикае "Муниторум"</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Bed">
+				<Original>[203rd] "Munitorum" Backpack(Bedroll)</Original>
+				<English>[203rd] "Munitorum" Backpack(Bedroll)</English>
+				<Russian>[203ий] Рюкзак "Муниторум"(Скатка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Bed_Shovel">
+				<Original>[203rd] "Munitorum" Backpack(Bedroll|Shovel)</Original>
+				<English>[203rd] "Munitorum" Backpack(Bedroll|Shovel)</English>
+				<Russian>[203ий] Рюкзак "Муниторум"(Скатка|Лопата)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Bed_Shovel_Pouch">
+				<Original>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Pouches)</Original>
+				<English>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Pouches)</English>
+				<Russian>[203ий] Рюкзак "Муниторум"(Скатка|Лопата|Подсумки)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Bed_Shovel_Pouch_Knife">
+				<Original>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Pouches|Knife)</Original>
+				<English>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Pouches|Knife)</English>
+				<Russian>[203ий] Рюкзак "Муниторум"(Скатка|Лопата|Подсумки|Ножны)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Bed_Shovel_Knife">
+				<Original>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Knife)</Original>
+				<English>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Knife)</English>
+				<Russian>[203ий] Рюкзак "Муниторум"(Скатка|Лопата|Ножны)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Knife">
+				<Original>[203rd] "Munitorum" Backpack(Knife)</Original>
+				<English>[203rd] "Munitorum" Backpack(Knife)</English>
+				<Russian>[203ий] Рюкзак "Муниторум"(Ножны)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Shovel_Knife">
+				<Original>[203rd] "Munitorum" Backpack(Shovel|Knife)</Original>
+				<English>[203rd] "Munitorum" Backpack(Shovel|Knife)</English>
+				<Russian>[203ий] Рюкзак "Муниторум"(Лопата|Ножны)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_CarryAll">
+				<Original>[203rd] Carry All Backpack</Original>
+				<English>[203rd] Carry All Backpack</English>
+				<Russian>[203ий] Рюкзак "Колобок"</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Powerpack">
+				<Original>[203rd] Kasrkin Powerpack</Original>
+				<English>[203rd] Kasrkin Powerpack</English>
+				<Russian>[203ий] Паверпак Касркинов</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Backpack_Powerpack_no_cable">
+				<Original>[203rd] Kasrkin Powerpack(No cable)</Original>
+				<English>[203rd] Kasrkin Powerpack(No cable)</English>
+				<Russian>[203ий] Паверпак Касркинов(Без Кабеля)</Russian>
+			</Key>
+		</Container>
+		<Container name="Units Localizations">
+			<Key ID="STR_TAG_203rdMW_Unit_WhiteShield">
+				<Original>Rifleman</Original>
+				<English>Rifleman</English>
+				<Russian>Стрелок</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_WhiteShield_R">
+				<Original>White Shield(Rolled)</Original>
+				<English>White Shield(Rolled)</English>
+				<Russian>Белый Щит(Закатанка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Rifleman">
+				<Original>Senior Rifleman</Original>
+				<English>Senior Rifleman</English>
+				<Russian>Старший Стрелок</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Rifleman_R">
+				<Original>Guardsman(Rolled)</Original>
+				<English>Guardsman(Rolled)</English>
+				<Russian>Гвардеец(Закатанка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Specialist">
+				<Original>Specialist</Original>
+				<English>Specialist</English>
+				<Russian>Спелицалист</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Specialist_R">
+				<Original>Specialist(Rolled)</Original>
+				<English>Specialist(Rolled)</English>
+				<Russian>Спелицалист(Закатанка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_HWT">
+				<Original>HWT Guardsman</Original>
+				<English>HWT Guardsman</English>
+				<Russian>Гвардеец ХВТ</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_SGT">
+				<Original>Sergeant</Original>
+				<English>Sergeant</English>
+				<Russian>Сержант</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_VET">
+				<Original>Veteran</Original>
+				<English>Veteran</English>
+				<Russian>Ветеран</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Rifleman_Overcoat">
+				<Original>Senior Rifleman(Parka)</Original>
+				<English>Senior Rifleman(Parka)</English>
+				<Russian>Старший стрелок(Парка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Sergeant_Overcoat">
+				<Original>Sergeant(Parka)</Original>
+				<English>Sergeant(Parka)</English>
+				<Russian>Сержант(Парка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Officer">
+				<Original>Officer</Original>
+				<English>Officer</English>
+				<Russian>Офицер</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Psyker">
+				<Original>Psyker</Original>
+				<English>Psyker</English>
+				<Russian>Псайкер</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Sergeant">
+				<Original>Sergeant</Original>
+				<English>Sergeant</English>
+				<Russian>Сержант</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Medicae">
+				<Original>Medicae</Original>
+				<English>Medicae</English>
+				<Russian>Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Medicae_R">
+				<Original>Medicae(Rolled)</Original>
+				<English>Medicae(Rolled)</English>
+				<Russian>Медикае(Закатанка)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Chirurgeon">
+				<Original>Chirurgeon</Original>
+				<English>Chirurgeon</English>
+				<Russian>Хирургеон</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Medicae_Sergeant">
+				<Original>Medicae Sergeant</Original>
+				<English>Medicae Sergeant</English>
+				<Russian>Сержант Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Medicae_Sergeant_R">
+				<Original>Medicae Sergeant</Original>
+				<English>Medicae Sergeant</English>
+				<Russian>Сержант Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Medicae_Officer">
+				<Original>Medicae Officer</Original>
+				<English>Medicae Officer</English>
+				<Russian>Офицер Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Medicae_Vet">
+				<Original>Medicae Veteran</Original>
+				<English>Medicae Veteran</English>
+				<Russian>Ветеран Медикае</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Unit_Kasrkin">
+				<Original>Kasrkin</Original>
+				<English>Kasrkin</English>
+				<Russian>Касркин</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>

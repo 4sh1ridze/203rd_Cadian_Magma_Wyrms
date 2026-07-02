@@ -397,11 +397,11 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianArmor_Sergeant.paa"
 		};
 	};
-class 203rd_Armor_Sergeant_Medicae: 203rd_Armor
+	class 203rd_Armor_Sergeant_Medicae: 203rd_Armor
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V0";
+		displayName="$STR_TAG_203rdMW_Vest_SGT_MED_V0";
 		hiddenSelections[]=
 		{
 			"camo"
@@ -431,7 +431,7 @@ class 203rd_Armor_Sergeant_Medicae: 203rd_Armor
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V1";
+		displayName="$STR_TAG_203rdMW_Vest_SGT_MED_V1";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -463,7 +463,7 @@ class 203rd_Armor_Sergeant_Medicae: 203rd_Armor
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V2";
+		displayName="$STR_TAG_203rdMW_Vest_SGT_MED_V2";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -497,7 +497,7 @@ class 203rd_Armor_Sergeant_Medicae: 203rd_Armor
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V3";
+		displayName="$STR_TAG_203rdMW_Vest_SGT_MED_V3";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -533,7 +533,7 @@ class 203rd_Armor_Sergeant_Medicae: 203rd_Armor
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_SGT_V4";
+		displayName="$STR_TAG_203rdMW_Vest_SGT_MED_V4";
 		hiddenSelections[]=
 		{
 			"camo",

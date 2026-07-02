@@ -53,7 +53,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Half_Camo";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -66,7 +66,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo";
+		displayName="$STR_TAG_203rdMW_Uni_SGT";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -79,7 +79,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Camo";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -131,7 +131,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_KP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -144,7 +144,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Camo_KP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -157,7 +157,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Half_Camo_KP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -209,7 +209,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP_TA";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_KP_TA";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -222,7 +222,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP_TA";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Half_Camo_KP_TA";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -235,7 +235,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP_TA";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Camo_KP_TA";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -287,7 +287,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP_FA";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_KP_FA";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -300,7 +300,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP_FA";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Half_Camo_KP_FA";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -313,7 +313,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Half_Camo_KP_FA";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Camo_KP_FA";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -352,7 +352,7 @@ class UniformItem;
 	{
 		author="Voodoo";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_Officer";
+		displayName="$STR_TAG_203rdMW_Uni_OFC";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -365,7 +365,7 @@ class UniformItem;
 	{
 		author="Voodoo";
 		scope=2;
-		displayName="203rd_Sergeant_Overcoat";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_Overcoat_Camo";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -391,7 +391,7 @@ class UniformItem;
 	{
 		author="Voodoo";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_KP_BRAC";
+		displayName="$STR_TAG_203rdMW_Uni_SGT_KP_BRAC";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -638,7 +638,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_M_OFC";
+		displayName="$STR_TAG_203rdMW_Uni_M_Overcoat";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -651,7 +651,7 @@ class UniformItem;
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_M_OFC_Camo";
+		displayName="$STR_TAG_203rdMW_Uni_M_Overcoat_Camo";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
@@ -789,4 +789,4 @@ class UniformItem;
 			containerClass="Supply90";
 			mass=80;
 		};
-	}
+	};
