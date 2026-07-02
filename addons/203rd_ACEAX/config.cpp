@@ -1215,7 +1215,7 @@ class XtdGearInfos {
 			rank="vet";
 			named="none";
 		};
-		class 203rd_Armor_Veteran{
+		class 203rd_Armor_Veteran_Medicae{
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="none";
@@ -1223,7 +1223,7 @@ class XtdGearInfos {
 			rank="vet";
 			named="none";
 		};
-		class 203rd_Armor_V1_Veteran{
+		class 203rd_Armor_V1_Veteran_Medicae{
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v1";
@@ -1231,7 +1231,7 @@ class XtdGearInfos {
 			rank="vet";
 			named="none";
 		};
-		class 203rd_Armor_V2_Veteran{
+		class 203rd_Armor_V2_Veteran_Medicae{
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v2";
@@ -1239,7 +1239,7 @@ class XtdGearInfos {
 			rank="vet";
 			named="none";
 		};
-		class 203rd_Armor_V3_Veteran{
+		class 203rd_Armor_V3_Veteran_Medicae{
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v3";
@@ -1247,7 +1247,7 @@ class XtdGearInfos {
 			rank="vet";
 			named="none";
 		};
-		class 203rd_Armor_V4_Veteran{
+		class 203rd_Armor_V4_Veteran_Medicae{
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v4";
