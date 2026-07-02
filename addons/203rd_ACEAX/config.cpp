@@ -336,13 +336,13 @@ class XtdGearModels {
 				alwaysSelectable = 1;
 				changeingame = 0;
 				label = "$STR_TAG_203rdMW_Menu_label_vest_named";
-				values[] = {"none","zub", "merek","muller","steel", "brimm","krass","psy"};
+				values[] = {"none","rehis", "merek","muller","steel", "brimm","krass","psy"};
 				
 				class none{
 					label="$STR_TAG_203rdMW_Menu_none_label";
 				};
-				class zub{
-					label="$STR_TAG_203rdMW_Menu_label_vest_named_zub";
+				class rehis{
+					label="$STR_TAG_203rdMW_Menu_label_vest_named_rehis";
 				};
 				class merek{
 					label="$STR_TAG_203rdMW_Menu_label_vest_named_merek";
@@ -1071,6 +1071,14 @@ class XtdGearInfos {
 			rank="pvt";
 			named="none";
 		};
+		class 203rd_Armor_V1_Merek{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v1";
+			spec="troop";
+			rank="pvt";
+			named="merek";
+		};
 		class 203rd_Armor_V2{
 			model="203rd_Cadian_Vests";
 			type="medium";
@@ -1079,13 +1087,13 @@ class XtdGearInfos {
 			rank="pvt";
 			named="none";
 		};
-		class 203rd_CadianArmor_V2_Zubastik{
+		class 203rd_CadianArmor_V2_rehisastik{
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v2";
 			spec="troop";
 			rank="pvt";
-			named="zub";
+			named="rehis";
 		};
 		class 203rd_Armor_V3{
 			model="203rd_Cadian_Vests";
