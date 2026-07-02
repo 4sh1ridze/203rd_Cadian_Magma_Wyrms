@@ -398,10 +398,10 @@
 				<English>Named</English>
 				<Russian>Именной</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_zub">
-				<Original>Zubastik</Original>
-				<English>Zubastik</English>
-				<Russian>Зубастик</Russian>
+			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_rehis">
+				<Original>Rehis</Original>
+				<English>Rehis</English>
+				<Russian>Рехис</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Menu_label_vest_named_merek">
 				<Original>Parmentier</Original>

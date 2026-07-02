@@ -566,6 +566,11 @@
 				<English>[203rd] Flak Vest(V1)</English>
 				<Russian>[203ий] Флак-жилет(В1)</Russian>
 			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V1_Merek">
+				<Original>[203rd] Flak Vest(V1|Parmentier)</Original>
+				<English>[203rd] Flak Vest(V1|Parmentier)</English>
+				<Russian>[203ий] Флак-жилет(В1|Пармантье)</Russian>
+			</Key>
 			<Key ID="STR_TAG_203rdMW_Vest_V2">
 				<Original>[203rd] Flak Vest(V2)</Original>
 				<English>[203rd] Flak Vest(V2)</English>

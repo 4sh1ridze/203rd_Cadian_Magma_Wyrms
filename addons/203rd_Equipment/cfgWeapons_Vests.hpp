@@ -66,6 +66,23 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 		};
 		
 	};
+	class 203rd_Armor_V1_Merek: FIG_CadianArmourPV1
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_V1_Merek";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\Jaba_ReskinArmov_V1.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
+		};
+		
+	};
 	class 203rd_Armor_V2: FIG_CadianArmourPV2
 	{
 		author="Brentwood";
