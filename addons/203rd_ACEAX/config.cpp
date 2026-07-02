@@ -845,6 +845,60 @@ class XtdGearInfos {
 			rank = "serg";
 			named = "none";
 		};
+		class 203rd_Helmet_Sergeant_M
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "none";
+			specs = "guardsman";
+			additionals = "clear";
+			rank = "serg";
+			named = "none";
+		};
+		class 203rd_Helmet_Mask_Sergeant_M
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "none";
+			specs = "guardsman";
+			additionals = "rebreather";
+			rank = "serg";
+			named = "none";
+		};
+		class 203rd_Helmet_Mask_OG_Sergeant_M
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "none";
+			specs = "guardsman";
+			additionals = "rebreather_OG";
+			rank = "serg";
+			named = "none";
+		};
+		class 203rd_Helmet_Mask_OG_NV_Sergeant_M
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "none";
+			specs = "guardsman";
+			additionals = "rebreather_OG_NV";
+			rank = "serg";
+			named = "none";
+		};
+		class 203rd_Helmet_GU_Sergeant_M
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "none";
+			specs = "guardsman";
+			additionals = "goggle_up";
+			rank = "serg";
+			named = "none";
+		};
+		class 203rd_Helmet_GD_Sergeant_M
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "none";
+			specs = "guardsman";
+			additionals = "goggle_down";
+			rank = "serg";
+			named = "none";
+		};
 		class 203rd_Helmet_Officer
 		{
 			model = "203rd_Cadian_Helmets";
@@ -1107,6 +1161,46 @@ class XtdGearInfos {
 			variant="v4";
 			spec="med";
 			rank="vet";
+			named="none";
+		};
+		class 203rd_Armor_Sergeant_Medicae{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="none";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_Sergeant_Medicae_1{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v1";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_Sergeant_Medicae_2{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v2";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_Sergeant_Medicae_3{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v3";
+			spec="med";
+			rank="sgt";
+			named="none";
+		};
+		class 203rd_Armor_Sergeant_Medicae_4{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v4";
+			spec="med";
+			rank="sgt";
 			named="none";
 		};
 		class 203rd_Armor_Veteran{
@@ -1573,54 +1667,6 @@ class XtdGearInfos {
 			rank="pvt";
 			named="none";
 		};
-		//Uniforms
-		class 203rd_Uniform_1_w
-		{
-			model="";
-		};
-		class 203rd_Uniform_1_w_1
-		class 203rd_Uniform_1_w_2
-		class 203rd_Uniform_2_w
-		class 203rd_Uniform_2_w_1
-		class 203rd_Uniform_2_w_2
-		class 203rd_Uniform_3_w
-		class 203rd_Uniform_3_w_1
-		class 203rd_Uniform_3_w_2
-		class 203rd_Uniform_4_w
-		class 203rd_Uniform_4_w_1
-		class 203rd_Uniform_4_w_2
-		class 203rd_Uniform_5_w
-		class 203rd_Uniform_5_w_1
-		class 203rd_Uniform_5_w_2
-		class 203rd_Uniform_6_w
-		class 203rd_Uniform_Rolled_1_w
-		class 203rd_Uniform_Rolled_1_w_1
-		class 203rd_Uniform_Rolled_1_w_2
-		class 203rd_Uniform_Rolled_2_w
-		class 203rd_Uniform_Rolled_2_w_1
-		class 203rd_Uniform_Rolled_2_w_2
-		class 203rd_Uniform_Rolled_3_w
-		class 203rd_Uniform_Rolled_3_w_1
-		class 203rd_Uniform_Rolled_3_w_2
-		class 203rd_Uniform_2_Medicae_w
-		class 203rd_Uniform_2_Medicae_w_1
-		class 203rd_Uniform_2_Medicae_w_2:
-		class 203rd_Uniform_3_Medicae_w
-		class 203rd_Uniform_3_Medicae_w_1
-		class 203rd_Uniform_3_Medicae_w_2
-		class 203rd_Uniform_4_Medicae_w
-		class 203rd_Uniform_4_Medicae_w_1
-		class 203rd_Uniform_4_Medicae_w_2
-		class 203rd_Uniform_5_Medicae_w
-		class 203rd_Uniform_5_Medicae_w_1
-		class 203rd_Uniform_6_Medicae
-		class 203rd_Uniform_Rolled_2_Medicae_w
-		class 203rd_Uniform_Rolled_2_Medicae_w_1
-		class 203rd_Uniform_Rolled_2_Medicae_w_2
-		class 203rd_Uniform_Rolled_3_Medicae_w
-		class 203rd_Uniform_Rolled_3_Medicae_w_1
-		class 203rd_Uniform_Rolled_3_Medicae_w_2
-		class 203rd_Uniform_Kasrkin_w
-		class 203rd_Uniform_Kasrkin_w_1
+		
 	};
 };
