@@ -31,32 +31,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 				"\IC_cad_inf\Vest\Data\CAD_vest_co.paa",
 				"\IC_cad_inf\Vest\Data\CAD_flakarmor_green_co.paa"
 			};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=16;
-					passThrough=0.5;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=16;
-					passThrough=0.5;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=16;
-					passThrough=0.5;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.5;
-				};
-			};
+			
 		};
 	};
 	class 203rd_Armor: FIG_CadianArmour
@@ -72,63 +47,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 		{
 			"\203rd_Equipment\data\203rd_CadianArmor.paa"
 		};
-		class ItemInfo: VestItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianArmour.p3d";
-			containerClass="Supply120";
-			hiddenSelections[]=
-			{
-				"camo"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Cadians\data\CadianArmour\FIG_CadianArmour_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.5;
-				};
-				class Arms
-				{
-					hitpointName="HitArms";
-					armor=12;
-					passThrough=0.5;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=26;
-					passThrough=0.60000002;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=20;
-					passThrough=0.60000002;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=12;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=8;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.60000002;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Armor_V1: FIG_CadianArmourPV1
 	{
@@ -145,65 +64,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianArmor.paa",
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
 		};
-		class ItemInfo: VestItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianArmourPV1.p3d";
-			containerClass="Supply120";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianArmor.paa",
-				"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.5;
-				};
-				class Arms
-				{
-					hitpointName="HitArms";
-					armor=12;
-					passThrough=0.5;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=26;
-					passThrough=0.60000002;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=20;
-					passThrough=0.60000002;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=12;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=8;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.60000002;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Armor_V2: FIG_CadianArmourPV2
 	{
@@ -220,65 +81,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianArmor.paa",
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
 		};
-		class ItemInfo: VestItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianArmourPV2.p3d";
-			containerClass="Supply120";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianArmor.paa",
-				"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.5;
-				};
-				class Arms
-				{
-					hitpointName="HitArms";
-					armor=12;
-					passThrough=0.5;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=26;
-					passThrough=0.60000002;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=20;
-					passThrough=0.60000002;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=12;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=8;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.60000002;
-				};
-			};
-		};
+		
 	};
 	class 203rd_CadianArmor_V2_Zubastik: 203rd_Armor_V2
 	{
@@ -313,67 +116,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
 			"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
 		};
-		class ItemInfo: VestItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianArmourPV3.p3d";
-			containerClass="Supply120";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1",
-				"camo2"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianArmor.paa",
-				"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
-				"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.5;
-				};
-				class Arms
-				{
-					hitpointName="HitArms";
-					armor=12;
-					passThrough=0.5;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=26;
-					passThrough=0.60000002;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=20;
-					passThrough=0.60000002;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=12;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=8;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.60000002;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Armor_V4: FIG_CadianArmourPV4
 	{
@@ -392,67 +135,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
 			"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
 		};
-		class ItemInfo: VestItem
-		{
-			uniformModel="\FIG_Imperial_Guard\FIG_Cadians\FIG_CadianArmourPV4.p3d";
-			containerClass="Supply120";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1",
-				"camo2"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\203rd_Equipment\data\203rd_CadianArmor.paa",
-				"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
-				"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=10;
-					passThrough=0.5;
-				};
-				class Arms
-				{
-					hitpointName="HitArms";
-					armor=12;
-					passThrough=0.5;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=30;
-					passThrough=0.60000002;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=24;
-					passThrough=0.60000002;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=12;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=8;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.60000002;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Armor_Medicae: 203rd_Armor
 	{
@@ -714,6 +397,20 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianArmor_Sergeant.paa"
 		};
 	};
+class 203rd_Armor_Sergeant_Medicae: 203rd_Armor
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V0";
+		hiddenSelections[]=
+		{
+			"camo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Veteran_Medicae_Sergeant.paa"
+		};
+	};
 	class 203rd_Armor_V1_Sergeant: 203rd_Armor_V1
 	{
 		author="Brentwood";
@@ -727,6 +424,22 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianArmor_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
+		};
+	};
+	class 203rd_Armor_Sergeant_Medicae_1: 203rd_Armor_V1
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V1";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Veteran_Medicae_Sergeant.paa",
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
 		};
 	};
@@ -746,6 +459,22 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
 		};
 	};
+	class 203rd_Armor_Sergeant_Medicae_2: 203rd_Armor_V2
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V2";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Veteran_Medicae_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
+		};
+	};
 	class 203rd_Armor_V3_Sergeant: 203rd_Armor_V3
 	{
 		author="Brentwood";
@@ -760,6 +489,24 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianArmor_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
+			"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
+		};
+	};
+	class 203rd_Armor_Sergeant_Medicae_3: 203rd_Armor_V3
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V3";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Veteran_Medicae_Sergeant.paa",
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
 			"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
 		};
@@ -796,6 +543,24 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianArmor_Sergeant.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
+			"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
+		};
+	};
+	class 203rd_Armor_Sergeant_Medicae_4: 203rd_Armor_V4
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V4";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1",
+			"camo2"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Veteran_Medicae_Sergeant.paa",
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
 			"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
 		};
@@ -1265,71 +1030,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianArmor_Adds_Kasrkin.paa",
 			""
 		};
-		class ItemInfo: VestItem
-		{
-			containerClass="Supply120";
-			uniformModel="\FIG_Imperial_Guard\FIG_Harakoni\FIG_HarakoniArmour.p3d";
-			hiddenSelections[]=
-			{
-				"camo",
-				"camo1",
-				"camo2",
-				"camo3",
-				"camo4"
-			};
-			hiddenSelectionsTextures[]=
-			{
-				"\FIG_Imperial_Guard\FIG_Harakoni\data\FIG_HarakoniArmour_co.paa",
-				"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
-				"",
-				"\FIG_Imperial_Guard\FIG_Harakoni\data\FIG_HarakoniAddon_co.paa",
-				"\FIG_Imperial_Guard\FIG_Harakoni\data\FIG_HarakoniAddon_co.paa"
-			};
-			class HitpointsProtectionInfo
-			{
-				class Neck
-				{
-					hitpointName="HitNeck";
-					armor=16;
-					passThrough=0.5;
-				};
-				class Arms
-				{
-					hitpointName="HitArms";
-					armor=20;
-					passThrough=0.5;
-				};
-				class Chest
-				{
-					hitpointName="HitChest";
-					armor=36;
-					passThrough=0.60000002;
-				};
-				class Diaphragm
-				{
-					hitpointName="HitDiaphragm";
-					armor=30;
-					passThrough=0.60000002;
-				};
-				class Abdomen
-				{
-					hitpointName="HitAbdomen";
-					armor=18;
-					passThrough=0.30000001;
-				};
-				class Pelvis
-				{
-					hitpointName="HitPelvis";
-					armor=12;
-					passThrough=0.30000001;
-				};
-				class Body
-				{
-					hitpointName="HitBody";
-					passThrough=0.60000002;
-				};
-			};
-		};
+		
 	};
 	class 203rd_Armor_Kasrkin_Medicae: 203rd_Armor_Kasrkin
 	{
