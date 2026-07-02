@@ -530,6 +530,24 @@
 			"\203rd_Equipment\data\203rd_UniTop_Gloves.paa"
 		};
 	};
+	class 203rd_Uniform_6_v_1: FIG_CadianUniformV4_1_base
+	{
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Unit_Vet";
+		uniformClass="203rd_Uniform_6_w_1";
+		faction = "203rdMW_Faction";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_UniPants_Knees_Camo.paa",
+			"\203rd_Equipment\data\203rd_UniTop_Gloves_Camo.paa"
+		};
+	};
 	class 203rd_Uniform_Rolled_1_v: FIG_CadianUniformV1Rolled_inf_B
 	{
 		scope=2;
@@ -869,7 +887,7 @@
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_UniPants_Knees_Medicae.paa",
-			"\203rd_Equipment\data\230rd_UniTop_Officer.paa"
+			"\203rd_Equipment\data\203rd_UniTop_Overcoat.paa"
 		};
 	};
 	class 203rd_Uniform_5_Medicae_v_1: FIG_CadianUniformV5_inf_B
@@ -887,7 +905,7 @@
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_UniPants_Knees_Medicae_Camo.paa",
-			"\203rd_Equipment\data\230rd_UniTop_Officer.paa"
+			"\203rd_Equipment\data\203rd_UniTop_Overcoat.paa"
 		};
 	};
 	class 203rd_Uniform_6_Medicae: FIG_CadianUniformV4_1_base
@@ -906,6 +924,24 @@
 		{
 			"\203rd_Equipment\data\203rd_UniPants_Knees_Medicae.paa",
 			"\203rd_Equipment\data\203rd_UniTop_Gloves_Medicae.paa"
+		};
+	};
+	class 203rd_Uniform_6_Medicae_v_1: FIG_CadianUniformV4_1_base
+	{
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Unit_Medicae_Vet";
+		uniformClass="203rd_Uniform_6_Medicae_w_1";
+		faction = "203rdMW_Faction";
+		editorSubcategory = "203rdMW_Troop_Half_Camo";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_UniPants_Knees_Medicae_Camo.paa",
+			"\203rd_Equipment\data\203rd_UniTop_Gloves_Medicae_Camo.paa"
 		};
 	};
 	class 203rd_Uniform_Rolled_2_Medicae_v: FIG_CadianUniformV2Rolled_inf_B

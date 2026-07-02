@@ -534,7 +534,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
-			"\203rd_Equipment\data\203rd_CadianMask.paa"
+			"\203rd_Equipment\data\203rd_CadianMask_Medicae.paa"
 		};
 	};
 	class 203rd_Helmet_Mask_OG_Sergeant_M: 203rd_Helmet_Mask_OG
@@ -550,7 +550,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
-			"\203rd_Equipment\data\203rd_CadianMaskOG.paa"
+			"\203rd_Equipment\data\203rd_CadianMaskOG_Medicae.paa"
 		};
 	};
 	class 203rd_Helmet_Mask_OG_NV_Sergeant_M: 203rd_Helmet_Mask_OG_NV
@@ -566,7 +566,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
-			"\203rd_Equipment\data\203rd_CadianMaskOG.paa"
+			"\203rd_Equipment\data\203rd_CadianMaskOG_Medicae.paa"
 		};
 	};
 	class 203rd_Helmet_GU_Sergeant_M: 203rd_Helmet_GU
@@ -582,7 +582,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
-			"\203rd_Equipment\data\203rd_CadianGoggles.paa"
+			"\203rd_Equipment\data\203rd_CadianGoggles_Medicae.paa"
 		};
 	};
 	class 203rd_Helmet_GD_Sergeant_M: 203rd_Helmet_GD
@@ -598,7 +598,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianHelmet_Medicae_Sergeant.paa",
-			"\203rd_Equipment\data\203rd_CadianGoggles.paa"
+			"\203rd_Equipment\data\203rd_CadianGoggles_Medicae.paa"
 		};
 	};
 	class 203rd_Helmet_Officer: 203rd_Helmet

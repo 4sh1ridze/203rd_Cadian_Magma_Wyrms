@@ -387,6 +387,19 @@ class UniformItem;
 			mass=80;
 		};
 	};
+	class 203rd_Uniform_6_w_1: FIG_CadianUniformV4_1_U_OP
+	{
+		author="Voodoo";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Uni_KP_BRAC";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="203rd_Uniform_6_w_1";
+			containerClass="Supply90";
+			mass=80;
+		};
+	};
 	class 203rd_Uniform_Rolled_1_w: FIG_CadianUniformV1Rolled_U_OP
 	{
 		author="Voodoo";
@@ -656,6 +669,19 @@ class UniformItem;
 		{
 			uniformModel="-";
 			uniformClass="203rd_Uniform_6_Medicae";
+			containerClass="Supply90";
+			mass=80;
+		};
+	};
+	class 203rd_Uniform_6_Medicae_v_1: FIG_CadianUniformV4_U_OP
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Uni_M_KP_BRAC";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="203rd_Uniform_6_Medicae_w_1";
 			containerClass="Supply90";
 			mass=80;
 		};
