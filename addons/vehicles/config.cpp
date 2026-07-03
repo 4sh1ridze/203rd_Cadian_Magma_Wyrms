@@ -2,12 +2,9 @@ class CfgPatches
 {
 	class 203rd_Cadian_Vehicles
 	{
-		requiredAddons[]=
-		{
-			"A3_Data_F","C203_core"
-		};
-		requiredVersion=0.1;
-		units[]=
+		name = "203rd 'Magma Wyrms' Vehicles";
+		author = "Brentwood|CannonFodderMk4";
+		units[] =
 		{
 			"C203_vehicle_Tank_LR_BattleCannon_01",
 			"C203_vehicle_Tank_LR_BattleCannon_02",
@@ -45,6 +42,18 @@ class CfgPatches
 			"C203_Vehicle_land_Tauros_Venator"
 		};
 		weapons[]={};
+		requiredAddons[]=
+		{
+			"A3_Data_F",
+			"C203_core",
+			"WHtracked_TIOW_LR_Battlecannon",
+			"TIOWM_APCs",
+			"IC_Leman_Russ",
+			"IC_Chimera",
+			"IC_Tauros",
+			"IC_Taurox"
+		};
+		requiredVersion=0.1;
 	};
 };
 class Optics_Armored;
@@ -72,6 +81,32 @@ class DefaultVehicleSystemsDisplayManagerLeft
 class DefaultVehicleSystemsDisplayManagerRight
 {
 	class components;
+};
+class cfgEditorSubcategories {
+    class 203rdMW_Veh_Light
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Light"
+	};
+	class 203rdMW_Veh_Light_COM
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Light_COM"
+	};
+	class 203rdMW_Vehicle_Middle
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Middle"
+	};
+	class 203rdMW_Veh_Middle_COM
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Middle_COM"
+	};
+	class 203rdMW_Veh_Heavy
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy"
+	};
+	class 203rdMW_Veh_Heavy_TIOW
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy_TIOW"
+	};
 };
 class cfgVehicles
 {

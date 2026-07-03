@@ -6,8 +6,7 @@
 	class C203_Vehicle_APC_Taurox_01: IC_Taurox_HS_desert
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox";
 		side=1;
 		hasCommander=0;
@@ -107,8 +106,7 @@
 	class C203_Vehicle_land_Taurox_HS: IC_Taurox_HS_desert
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox";
 		side=1;
 		hasCommander=0;
@@ -173,8 +171,7 @@
 	class C203_Vehicle_APC_Taurox_02: IC_Taurox_BattleCannon
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_BC";
 		side=1;
 		hasCommander=0;
@@ -267,8 +264,7 @@
 	class C203_vehicle_land_Taurox_BC: IC_Taurox_BattleCannon
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_BC";
 		side=1;
 		hasCommander=0;
@@ -296,8 +292,7 @@
 	class C203_Vehicle_APC_Taurox_03: IC_Taurox_GatlingGun
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_GG";
 		side=1;
 		hasCommander=0;
@@ -390,8 +385,7 @@
 	class C203_vehicle_land_Taurox_GG: IC_Taurox_GatlingGun
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_GG";
 		side=1;
 		hasCommander=0;
@@ -425,8 +419,7 @@
 	class C203_Vehicle_APC_Taurox_04: IC_Taurox_AutoCannon
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_AC";
 		side=1;
 		hasCommander=0;
@@ -519,8 +512,7 @@
 	class C203_vehicle_land_Taurox_AC: IC_Taurox_AutoCannon
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_AC";
 		side=1;
 		hasCommander=0;
@@ -567,8 +559,7 @@
 	class C203_Vehicle_Car_Tauros_01: IC_Tauros_unarmed_woodland_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		crew="203rd_02";
@@ -587,8 +578,7 @@
 	class C203_Vehicle_land_Tauros_U: IC_Tauros_unarmed_woodland_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		crew="203rd_02";
@@ -607,8 +597,7 @@
 	class C203_Vehicle_Car_Tauros_02: IC_Tauros_GMG_base_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		crew="203rd_02";
@@ -627,8 +616,7 @@
 	class C203_Vehicle_land_Tauros_GMG: IC_Tauros_GMG_base_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		crew="203rd_02";
@@ -647,8 +635,7 @@
 	class C203_Vehicle_Car_Tauros_03: IC_Tauros_HMG_base_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		crew="203rd_02";
@@ -667,8 +654,7 @@
 	class C203_Vehicle_land_Tauros_HMG: IC_Tauros_HMG_base_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		crew="203rd_02";
@@ -687,8 +673,7 @@
 	class C203_Vehicle_Car_Tauros_04: IC_Tauros_venator_base_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		crew="203rd_02";
@@ -711,8 +696,7 @@
 	class C203_Vehicle_land_Tauros_Venator: IC_Tauros_venator_base_F
 	{
 		scope=2;
-		scopeArsenal=2;
-		scopeCurator=2;
+
 		Faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		crew="203rd_02";

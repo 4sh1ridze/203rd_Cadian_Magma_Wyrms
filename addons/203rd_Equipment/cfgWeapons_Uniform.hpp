@@ -382,7 +382,7 @@ class UniformItem;
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="203rd_Uniform_6_w";
+			uniformClass="203rd_Uniform_6_v";
 			containerClass="Supply90";
 			mass=80;
 		};
@@ -391,11 +391,11 @@ class UniformItem;
 	{
 		author="Voodoo";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Uni_SGT_KP_BRAC";
+		displayName="$STR_TAG_203rdMW_Uni_VET_KP_BRAC";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="203rd_Uniform_6_w_1";
+			uniformClass="203rd_Uniform_6_v_1";
 			containerClass="Supply90";
 			mass=80;
 		};

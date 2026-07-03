@@ -47,6 +47,16 @@
 				<English>Tauros Venator</English>
 				<Russian>Таурос Венатор</Russian>
 			</Key>
+			<Key ID="STR_TAG_203rdMW_SubCategory_Veh_Light">
+				<Original>[203rd] Light Vehicles</Original>
+				<English>[203rd] Light Vehicles</English>
+				<Russian>[203ий] Лёгкая техника</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_SubCategory_Veh_Light_COM">
+				<Original>[203rd] Light Vehicles(Command)</Original>
+				<English>[203rd] Light Vehicles(Command)</English>
+				<Russian>[203ий] Лёгкая техника(КШМ)</Russian>
+			</Key>
 		</Container>
 		<Container name="Medium vehicle localization">
 			<Key ID="STR_TAG_203rdMW_Middle_Vehicle_Chimera_TIOW">
@@ -73,6 +83,16 @@
 				<Original>"Chimerro" Mk. IV</Original>
 				<English>"Chimerro" Mk. IV</English>
 				<Russian>"Химерро" Мк. IV</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_SubCategory_Veh_Middle">
+				<Original>[203rd] Middle Vehicles</Original>
+				<English>[203rd] Middle Vehicles</English>
+				<Russian>[203ий] Средняя техника</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_SubCategory_Veh_Middle_COM">
+				<Original>[203rd] Middle Vehicles(Command)</Original>
+				<English>[203rd] Middle Vehicles(Command)</English>
+				<Russian>[203ий] Средняя техника(КШМ)</Russian>
 			</Key>
 		</Container>
 		<Container name="Heavy vehicle localization">
@@ -125,6 +145,16 @@
 				<Original>Leman Russ "Punisher"(TIOW)</Original>
 				<English>Leman Russ "Punisher"(TIOW)</English>
 				<Russian>Леман Русс "Каратель"(ТИОВ)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_SubCategory_Veh_Heavy">
+				<Original>[203rd] Heavy Vehicles</Original>
+				<English>[203rd] Heavy Vehicles</English>
+				<Russian>[203ий] Тяжелая техника</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_SubCategory_Veh_Heavy_TIOW">
+				<Original>[203rd] Heavy Vehicles(TIOW)</Original>
+				<English>[203rd] Heavy Vehicles(TIOW)</English>
+				<Russian>[203ий] Тяжелая техника(ТИОВ)</Russian>
 			</Key>
 		<Container>
 	</Package>
