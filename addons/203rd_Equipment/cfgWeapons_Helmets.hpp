@@ -8,6 +8,7 @@ class FIG_CadianHelmOGMaskNV;
 class FIG_CadianHelmGU;
 class FIG_CadianHelmGD;
 class IC_tanker_cap;
+class FIG_CadianVoxHelm
 class HeadgearItem;
 class 203rd_Patrol_Cap: FIG_CadianCap
 	{
@@ -79,6 +80,25 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		hiddenSelectionsTextures[]=
 		{
 			"\203rd_Equipment\data\203rd_CadianHelmet.paa"
+		};
+		ace_hearing_protection=0.80000001;
+		ace_hearing_lowerVolume=0.60000002;
+		
+	};
+	class  203rd_CadianVoxHelm: FIG_CadianVoxHelm 
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="[203rd] Cadian  Vox Helmet";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet.paa",
+			"\203rd_Equipment\data\203rd_CadianVoxHelm_co.paa"
 		};
 		ace_hearing_protection=0.80000001;
 		ace_hearing_lowerVolume=0.60000002;
