@@ -97,10 +97,10 @@
 				<English>[203rd] Uniform(SGT|Half-Camo|Knee Pads)</English>
 				<Russian>[203ий] Униформа(СЕРЖ|Полу-Камо|Наколенники)</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Uni_SGT_KP_BRAC">
-				<Original>[203rd] Uniform(SGT|Knee Pads|Bracers)</Original>
-				<English>[203rd] Uniform(SGT|Knee Pads|Bracers)</English>
-				<Russian>[203ий] Униформа(СЕРЖ|Наколенники|Наручи)</Russian>
+			<Key ID="STR_TAG_203rdMW_Uni_VET_KP_BRAC">
+				<Original>[203rd] Uniform(VET|Knee Pads|Bracers)</Original>
+				<English>[203rd] Uniform(VET|Knee Pads|Bracers)</English>
+				<Russian>[203ий] Униформа(ВЕТ|Наколенники|Наручи)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Uni_SGT_KP_TA">
 				<Original>[203rd] Uniform(SGT|Half Armor)</Original>
@@ -1055,7 +1055,7 @@
 				<English>[203rd] "Munitorum" Backpack(Bedroll|Shovel)</English>
 				<Russian>[203ий] Рюкзак "Муниторум"(Скатка|Лопата)</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Bed_Shovel_Pouch">
+			<Key ID="STR_TAG_203rdMW_Backpack_Munitorum_Bed_Shovel_Pouches">
 				<Original>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Pouches)</Original>
 				<English>[203rd] "Munitorum" Backpack(Bedroll|Shovel|Pouches)</English>
 				<Russian>[203ий] Рюкзак "Муниторум"(Скатка|Лопата|Подсумки)</Russian>

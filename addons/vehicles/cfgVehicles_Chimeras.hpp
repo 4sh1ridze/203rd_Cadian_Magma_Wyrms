@@ -323,11 +323,10 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
+		scopeCurator = 2;
 		accuracy=1000;
 		faction = "203rdMW_Faction";
-		editorSubcategory="203rdMW_Veh_Middle";
+		editorSubcategory = "203rdMW_Vehicle_Middle";
 		typicalCargo[]=
 		{
 			"203rd_03"
@@ -466,11 +465,9 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
-		faction="203rdMW_Faction";
-		editorSubcategory="203rdMW_Veh_Middle";
+		faction = "203rdMW_Faction";
+		editorSubcategory = "203rdMW_Vehicle_Middle";
 		typicalCargo[]=
 		{
 			"203rd_03"
@@ -495,11 +492,9 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorSubcategory="203rdMW_Veh_Middle";
+		editorSubcategory="203rdMW_Vehicle_Middle";
 		typicalCargo[]=
 		{
 			"203rd_03"
@@ -599,11 +594,9 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorSubcategory="203rdMW_Veh_Middle";
+		editorSubcategory="203rdMW_Vehicle_Middle";
 		typicalCargo[]=
 		{
 			"203rd_03"
@@ -622,11 +615,9 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorSubcategory="203rdMW_Veh_Middle";
+		editorSubcategory="203rdMW_Vehicle_Middle";
 		typicalCargo[]=
 		{
 			"203rd_03"
@@ -765,11 +756,9 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorSubcategory="203rdMW_Veh_Middle";
+		editorSubcategory="203rdMW_Vehicle_Middle";
 		typicalCargo[]=
 		{
 			"203rd_03"
@@ -788,11 +777,9 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorSubcategory="203rdMW_Veh_Middle";
+		editorSubcategory="203rdMW_Vehicle_Middle";
 		typicalCargo[]=
 		{
 			"203rd_03"

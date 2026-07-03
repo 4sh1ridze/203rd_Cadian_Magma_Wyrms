@@ -215,8 +215,7 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
+		scopeCurator = 2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
@@ -450,7 +449,6 @@
 	{
 		side=1;
 		scope=2;
-		scopeCurator=2;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy";
 		crew="203rd_02";
@@ -493,8 +491,6 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
@@ -728,7 +724,6 @@
 	{
 		side=1;
 		scope=2;
-		scopeCurator=2;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy";
 		crew="203rd_02";
@@ -792,8 +787,6 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
@@ -816,8 +809,6 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
@@ -840,8 +831,6 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
@@ -864,8 +853,6 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
@@ -888,8 +875,6 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
@@ -912,8 +897,6 @@
 		crew="203rd_02";
 		side=1;
 		scope=2;
-		scopeCurator=2;
-		scopeArsenal=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";

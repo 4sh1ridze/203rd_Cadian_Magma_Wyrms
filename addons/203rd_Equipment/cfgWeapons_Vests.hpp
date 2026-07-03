@@ -550,7 +550,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_SGT_MED_V4";
+		displayName="$STR_TAG_203rdMW_Vest_SGT_V4";
 		hiddenSelections[]=
 		{
 			"camo",
@@ -568,7 +568,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_SGT_M_V4";
+		displayName="$STR_TAG_203rdMW_Vest_SGT_MED_V4";
 		hiddenSelections[]=
 		{
 			"camo",

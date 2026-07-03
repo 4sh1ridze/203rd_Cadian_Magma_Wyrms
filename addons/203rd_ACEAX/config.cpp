@@ -1978,7 +1978,7 @@ class XtdGearInfos {
 			camo="camo";
 			speci="troopic";
 			armor="knee_pads";
-			rang="Sergeants";
+			rang="Sergants";
 		};
 		class 203rd_Uniform_6_w
 		{
@@ -1993,7 +1993,7 @@ class XtdGearInfos {
 		{
 			model="203rd_Cadian_uniform";
 			tip="norm";
-			camo="no_camo";
+			camo="camo";
 			speci="troopic";
 			armor="kn_brac";
 			rang="Private";
