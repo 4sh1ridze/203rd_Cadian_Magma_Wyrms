@@ -84,6 +84,28 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		ace_hearing_lowerVolume=0.60000002;
 		
 	};
+<<<<<<< Updated upstream
+=======
+	class  203rd_CadianVoxHelm: FIG_CadianVoxHelm 
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Helm_Vox";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianHelmet.paa",
+			"\203rd_Equipment\data\203rd_CadianVoxHelm_co.paa"
+		};
+		ace_hearing_protection=0.80000001;
+		ace_hearing_lowerVolume=0.60000002;
+		
+	};
+>>>>>>> Stashed changes
 	class 203rd_Helmet_Mask: FIG_CadianHelmMask
 	{
 		author="Brentwood";
