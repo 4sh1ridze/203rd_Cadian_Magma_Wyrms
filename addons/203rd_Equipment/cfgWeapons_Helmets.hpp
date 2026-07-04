@@ -89,7 +89,7 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 	{
 		author="Brentwood";
 		scope=2;
-		displayName="[203rd] Cadian  Vox Helmet";
+		displayName="$STR_TAG_203rdMW_Helm_Vox";
 		hiddenSelections[]=
 		{
 			"camo",
