@@ -128,7 +128,7 @@ class XtdGearModels {
 				alwaysSelectable = 1;
 				changeingame = 0;
 				label = "$STR_TAG_203rdMW_Menu_Helmets_label_hats";
-				values[] = {"none","patrol_cap", "officer_cap", "beret","tanker"};
+				values[] = {"none","patrol_cap", "officer_cap", "beret","tanker","vox"};
 				
 				class none{
 					label="$STR_TAG_203rdMW_Menu_none_label";
@@ -144,6 +144,9 @@ class XtdGearModels {
 				};
 				class tanker{
 					label="$STR_TAG_203rdMW_Menu_Helmets_tanker";
+				};
+				class vox{
+					label="$STR_TAG_203rdMW_Menu_Helmets_Vox";
 				};
 			};
 			class specs{
@@ -635,6 +638,15 @@ class XtdGearInfos {
 		{
 			model = "203rd_Cadian_Helmets";
 			ubor = "tanker";
+			specs = "none";
+			additionals = "none";
+			rank = "none";
+			named = "none";
+		};
+		class 203rd_CadianVoxHelm
+		{
+			model = "203rd_Cadian_Helmets";
+			ubor = "vox";
 			specs = "none";
 			additionals = "none";
 			rank = "none";

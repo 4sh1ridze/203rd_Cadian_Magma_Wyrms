@@ -324,6 +324,11 @@
 				<English>[203rd] Tanker Cap</English>
 				<Russian>[203ий] Шлемофон</Russian>
 			</Key>
+			<Key ID="STR_TAG_203rdMW_Helm_Vox">
+				<Original>[203rd] Vox Helmet</Original>
+				<English>[203rd] Vox Helmet</English>
+				<Russian>[203ий] Вокс-шлем</Russian>
+			</Key>
 			<Key ID="STR_TAG_203rdMW_Helm">
 				<Original>[203rd] Flak Helmet</Original>
 				<English>[203rd] Flak Helmet</English>

@@ -171,6 +171,11 @@
 				<English>Tank Cap</English>
 				<Russian>Шлемофон</Russian>
 			</Key>
+			<Key ID="STR_TAG_203rdMW_Menu_Helmets_Vox">
+				<Original>Vox Helmet</Original>
+				<English>Vox Helmet</English>
+				<Russian>Вокс-шлем</Russian>
+			</Key>
 			<Key ID="STR_TAG_203rdMW_Menu_label_beret">
 				<Original>Beret</Original>
 				<English>Beret</English>
