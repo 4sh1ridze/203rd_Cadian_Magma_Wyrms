@@ -8,6 +8,7 @@ class FIG_CadianHelmOGMaskNV;
 class FIG_CadianHelmGU;
 class FIG_CadianHelmGD;
 class IC_tanker_cap;
+class FIG_CadianVoxHelm
 class HeadgearItem;
 class 203rd_Patrol_Cap: FIG_CadianCap
 	{
@@ -84,8 +85,6 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		ace_hearing_lowerVolume=0.60000002;
 		
 	};
-<<<<<<< Updated upstream
-=======
 	class  203rd_CadianVoxHelm: FIG_CadianVoxHelm 
 	{
 		author="Brentwood";
@@ -105,7 +104,6 @@ class 203rd_Patrol_Cap: FIG_CadianCap
 		ace_hearing_lowerVolume=0.60000002;
 		
 	};
->>>>>>> Stashed changes
 	class 203rd_Helmet_Mask: FIG_CadianHelmMask
 	{
 		author="Brentwood";
