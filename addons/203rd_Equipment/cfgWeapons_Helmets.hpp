@@ -1,4 +1,4 @@
-class FIG_CadianCap;
+	class FIG_CadianCap;
 class IC_scion_beret;
 class IC_officer_cap_green;
 class FIG_CadianHelm;

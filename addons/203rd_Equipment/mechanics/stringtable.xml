@@ -32,7 +32,6 @@
 				<English>Rebreather Off</English>
 				<Russian>Снять ребризер</Russian>
 			</Key>
-			
 			<Key ID="STR_TAG_203rdMW_ACESI_Uni_Name">
 				<Original>Uniform</Original>
 				<English>Uniform</English>
@@ -48,6 +47,16 @@
 				<English>Roll Down</English>
 				<Russian>Раскатать Рукава</Russian>
 			</Key>
-		</Container"
+			<Key ID="STR_TAG_203rdMW_ACESI_Anim_Name">
+				<Original>Animations</Original>
+				<English>Animations</English>
+				<Russian>Анимации</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_ACESI_Animation_Smoking">
+				<Original>Begin Smoking</Original>
+				<English>Begin Smoking</English>
+				<Russian>Начать курить</Russian>
+			</Key>
+		</Container>
 	</Package>
 </Project>
