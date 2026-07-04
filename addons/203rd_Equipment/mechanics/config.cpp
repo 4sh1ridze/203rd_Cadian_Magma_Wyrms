@@ -11,6 +11,11 @@ class CfgPatches
 		};
 	};
 };
+class Extended_PreInit_EventHandlers {
+    class 203rdMW_Equipment_Script {
+        init = "call compile preprocessFileLineNumbers '203rd_Equipment\mechanics\Equipment_customize.sqf'";
+    };
+};
 class CfgVehicles
 {
 	class Man;
@@ -22,232 +27,65 @@ class CfgVehicles
 			{
 				displayName="$STR_TAG_203rdMW_ACESI_Group_Name";
 				icon="203rd_Equipment\203_logo_small.paa";
-				class 203rd_Cadia_helmets_Customs
+				class 203rdMW_Helmet_Gear_Customize
 				{
 					displayName="$STR_TAG_203rdMW_ACESI_Helm_Name";
-					class 203rd_Helmet_gogles_up
+					class 20rdMW_Helmet_Down_Goggles
 					{
 						displayName="$STR_TAG_203rdMW_ACESI_Helm_GD";
-						condition="headgear player == '203rd_Helmet_GU'";
+						condition="[ace_player] call MW_Helmet_Goggle_Down_Condition";
 						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD'";
+						statement="[ace_player] call MW_Helmet_Goggle_Down_FNC";
 					};
-					class 203rd_Helmet_gogles_down
+					class 20rdMW_Helmet_Up_Goggles
 					{
 						displayName="$STR_TAG_203rdMW_ACESI_Helm_GU";
-						condition="headgear player == '203rd_Helmet_GD'";
+						condition="[ace_player] call MW_Helmet_Goggle_Up_Condition";
 						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GU'";
+						statement="[ace_player] call MW_Helmet_Goggle_Up_FNC";
 					};
-					class 203rd_Helmet_Medicae_gogles_up
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GD";
-						condition="headgear player == '203rd_Helmet_GU_Medicae'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Medicae'";
-					};
-					class 203rd_Helmet_Medicae_gogles_down
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GU";
-						condition="headgear player == '203rd_Helmet_GD_Medicae'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GU_Medicae'";
-					};
-					class 203rd_Helmet_WS_gogles_up
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GD";
-						condition="headgear player == '203rd_Helmet_GU_Whiteshield'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Whiteshield'";
-					};
-					class 203rd_Helmet_WS_gogles_down
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GU";
-						condition="headgear player == '203rd_Helmet_GD_Whiteshield'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GU_Whiteshield'";
-					};
-					class 203rd_Helmet_Sergeant_gogles_up
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GD";
-						condition="headgear player == '203rd_Helmet_GU_Sergeant'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Sergeant'";
-					};
-					class 203rd_Helmet_Sergeant_gogles_down
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GU";
-						condition="headgear player == '203rd_Helmet_GD_Sergeant'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GU_Sergeant'";
-					};
-					class 203rd_Helmet_Officer_gogles_up
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GD";
-						condition="headgear player == '203rd_Helmet_GU_Officer'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Officer'";
-					};
-					class 203rd_Helmet_Officer_gogles_down
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_GU";
-						condition="headgear player == '203rd_Helmet_GD_Officer'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GU_Officer'";
-					};
-					class 203rd_Helmet_mask_on
+					class 20rdMW_Helmet_PutOn_Rebreather
 					{
 						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_GU' || headgear player == '203rd_Helmet_GD'";
+						condition="[ace_player] call MW_Helmet_Mask_On_Condition";
 						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask'";
+						statement="[ace_player] call MW_Helmet_Mask_On_FNC"; 
 					};
-					class 203rd_Helmet_Mask_off
+					class 20rdMW_Helmet_PutOff_Rebreather
 					{
 						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask'";
+						condition="[ace_player] call MW_Helmet_Mask_Off_Condition";
 						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD'";
+						statement="[ace_player] call MW_Helmet_Mask_Off_FNC";
 					};
-					class 203rd_Helmet_mask_on_M
+				};
+				class 203rdMW_Uniform_Rolling
+				{
+					displayName="$STR_TAG_203rdMW_ACESI_Uni_Name";
+					class 20rdMW_Unifrom_Roll_Up
 					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_GU_Medicae' || headgear player == '203rd_Helmet_GD_Medicae'";
+						displayName="$STR_TAG_203rdMW_ACESI_Uni_Roll_U";
+						condition="[ace_player] call MW_Uniform_Uni_RollUp_Check";
 						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_Medicae'";
+						statement="[ace_player] call MW_Uniform_Roll_Up_FNC";
 					};
-					class 203rd_Helmet_Mask_off_M
+					class 20rdMW_Unifrom_Roll_Down
 					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_Medicae'";
+						displayName="$STR_TAG_203rdMW_ACESI_Uni_Roll_D";
+						condition="[ace_player] call MW_Uniform_Uni_RollDown_Check";
 						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Medicae'";
+						statement="[ace_player] call MW_Uniform_Roll_Down_FNC";
 					};
-					class 203rd_Helmet_mask_on_WS
+				};
+				class 203rdMW_Animations
+				{
+					displayName="$STR_TAG_203rdMW_ACESI_Anim_Name";
+					class 203rdMW_cig_smoking_loop
 					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_GU_Whiteshield' || headgear player == '203rd_Helmet_GD_Whiteshield'";
+						displayName="$STR_TAG_203rdMW_ACESI_Animation_Smoking";
+						condition="[ace_player] call MW_AnimationPlay_Condition";
 						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_Whiteshield'";
-					};
-					class 203rd_Helmet_Mask_off_WS
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_Whiteshield'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Whiteshield'";
-					};
-					class 203rd_Helmet_mask_on_S
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_GU_Sergeant' || headgear player == '203rd_Helmet_GD_Sergeant'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_Sergeant'";
-					};
-					class 203rd_Helmet_Mask_off_S
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_Sergeant'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Sergeant'";
-					};
-					class 203rd_Helmet_mask_on_O
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_GU_Officer' || headgear player == '203rd_Helmet_GD_Officer'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_Officer'";
-					};
-					class 203rd_Helmet_Mask_off_O
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_Officer'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_GD_Officer'";
-					};
-					class 203rd_Helmet_mask_on_SM
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Sergeant_Muller_GU' || headgear player == '203rd_Sergeant_Muller_GD'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Sergeant_Muller_Mask'";
-					};
-					class 203rd_Helmet_Mask_off_SM
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Sergeant_Muller_Mask'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Sergeant_Muller_GD'";
-					};
-					class 203rd_Helmet_mask_OG_on
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_OG'";
-					};
-					class 203rd_Helmet_mask_OG_off
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_OG'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet'";
-					};
-					class 203rd_Helmet_mask_OG_on_M
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_Medicae'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_OG_Medicae'";
-					};
-					class 203rd_Helmet_mask_OG_off_M
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_OG_Medicae'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Medicae'";
-					};
-					class 203rd_Helmet_mask_OG_on_WS
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_Whiteshield'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_OG_Whiteshield'";
-					};
-					class 203rd_Helmet_mask_OG_off_WS
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_OG_Whiteshield'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Whiteshield'";
-					};
-					class 203rd_Helmet_mask_OG_on_S
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_Sergeant'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_OG_Sergeant'";
-					};
-					class 203rd_Helmet_mask_OG_off_S
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_OG_Sergeant'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Sergeant'";
-					};
-					class 203rd_Helmet_mask_OG_on_O
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MON";
-						condition="headgear player == '203rd_Helmet_Officer'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Mask_OG_officer'";
-					};
-					class 203rd_Helmet_mask_OG_off_O
-					{
-						displayName="$STR_TAG_203rdMW_ACESI_Helm_MOFF";
-						condition="headgear player == '203rd_Helmet_Mask_OG_officer'";
-						exceptions[]={};
-						statement="_player addHeadgear '203rd_Helmet_Officer'";
+						statement="[ace_player, 'cigs_anim_cig_loop'] remoteExec ['switchGesture', 0]";
 					};
 				};
 			};

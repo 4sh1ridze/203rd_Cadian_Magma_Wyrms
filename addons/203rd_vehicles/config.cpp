@@ -25,7 +25,6 @@ class CfgPatches
 			"C203_vehicle_land_Chimerro",
 			"C203_Vehicle_APC_Taurox_01",
 			"C203_Vehicle_land_Taurox_HS",
-			"C203_Vehicle_APC_Taurox_01M",
 			"C203_Vehicle_APC_Taurox_02",
 			"C203_vehicle_land_Taurox_BC",
 			"C203_Vehicle_APC_Taurox_03",
