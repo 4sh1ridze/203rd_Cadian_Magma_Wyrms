@@ -18,6 +18,7 @@ class CfgPatches
 			"C203_vehicle_Tank_LR_Punisher_01",
 			"C203_vehicle_APC_Chimera_01",
 			"C203_vehicle_APC_Chimera_02",
+			"C203_vehicle_land_Chimera",
 			"C203_vehicle_APC_Chimera_02M",
 			"C203_vehicle_APC_Chimedon_01",
 			"C203_vehicle_land_Chimedon",
@@ -25,6 +26,7 @@ class CfgPatches
 			"C203_vehicle_land_Chimerro",
 			"C203_Vehicle_APC_Taurox_01",
 			"C203_Vehicle_land_Taurox_HS",
+			"C203_Vehicle_APC_Taurox_01M",
 			"C203_Vehicle_APC_Taurox_02",
 			"C203_vehicle_land_Taurox_BC",
 			"C203_Vehicle_APC_Taurox_03",
@@ -45,6 +47,7 @@ class CfgPatches
 		{
 			"A3_Data_F",
 			"C203_core",
+			"C203_identities",
 			"WHtracked_TIOW_LR_Battlecannon",
 			"TIOWM_APCs",
 			"IC_Leman_Russ",
@@ -81,30 +84,53 @@ class DefaultVehicleSystemsDisplayManagerRight
 {
 	class components;
 };
-class cfgEditorSubcategories {
-    class 203rdMW_Veh_Light
+class CfgEditorCategories
+{
+	class C203_EdCat_Vehicles
 	{
-		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Light"
+		displayName = "$STR_TAG_203rdMW_Faction_Name";
+	};
+};
+class CfgVehicleClasses
+{
+	class C203_VehicleClass_Light
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Light";
+	};
+	class C203_VehicleClass_Middle
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Middle";
+	};
+	class C203_VehicleClass_Heavy
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy";
+	};
+};
+class CfgEditorSubcategories
+{
+	class 203rdMW_Veh_Light
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Light";
 	};
 	class 203rdMW_Veh_Light_COM
 	{
-		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Light_COM"
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Light_COM";
 	};
 	class 203rdMW_Vehicle_Middle
 	{
-		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Middle"
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Middle";
 	};
 	class 203rdMW_Veh_Middle_COM
 	{
-		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Middle_COM"
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Middle_COM";
 	};
 	class 203rdMW_Veh_Heavy
 	{
-		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy"
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy";
 	};
 	class 203rdMW_Veh_Heavy_TIOW
 	{
-		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy_TIOW"
+		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy_TIOW";
 	};
 };
 class cfgVehicles
