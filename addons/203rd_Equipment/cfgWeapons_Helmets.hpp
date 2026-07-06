@@ -8,7 +8,7 @@ class FIG_CadianHelmOGMaskNV;
 class FIG_CadianHelmGU;
 class FIG_CadianHelmGD;
 class IC_tanker_cap;
-class FIG_CadianVoxHelm
+class FIG_CadianVoxHelm;
 class HeadgearItem;
 class 203rd_Patrol_Cap: FIG_CadianCap
 	{
