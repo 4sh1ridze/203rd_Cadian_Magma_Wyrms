@@ -1,7 +1,12 @@
 class CfgPatches {
     class C203_identities {
         name = "203rd Assets - Core";
-        units[] = {};
+        units[] = {
+            "203rd_01",
+            "203rd_02",
+            "203rd_03",
+            "203rd_04"
+        };
         weapons[] = {};
         requiredVersion = 2.06;
         requiredAddons[] = {"A3_Functions_F"};
