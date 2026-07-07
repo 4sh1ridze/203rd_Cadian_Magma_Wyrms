@@ -86,7 +86,7 @@ class XtdGearModels {
 				alwaysSelectable = 1;
 				changeingame = 0;
 				label = "$STR_TAG_203rdMW_Menu_Backpack_label_field";
-				values[] = {"none","standart","kolobok","vox_v1","vox_v2","invisible","kasr_cable","kasr_cable_NC","rocket"};				                                                                                                                                   
+				values[] = {"none","standart","kolobok","vox_v1","vox_FIG","invisible","kasr_cable","kasr_cable_NC","rocket"};				                                                                                                                                   
 				
 				class none{
 					label="$STR_TAG_203rdMW_Menu_none_label";
@@ -100,8 +100,8 @@ class XtdGearModels {
 				class vox_v1{
 					label="$STR_TAG_203rdMW_Menu_Backpack_vox_v1";
 				};
-				class vox_v2{
-					label="$STR_TAG_203rdMW_Menu_Backpack_vox_v2";
+				class vox_FIG{
+					label="$STR_TAG_203rdMW_Menu_Backpack_vox_FIG";
 				};
 				class invisible{
 					label="$STR_TAG_203rdMW_Menu_Backpack_invisible";
@@ -528,7 +528,7 @@ class XtdGearInfos {
 		};
 		class 203rd_CadianBackpack2LightKnife {
 			model = "203rd_Cadian_Backpacks";
-			Munitorum = "shtorm_light";
+			Munitorum = "shtorm_knife";
 			Bandolier = "none";
 			Field = "none";
 		};
@@ -584,19 +584,19 @@ class XtdGearInfos {
 			model = "203rd_Cadian_Backpacks";
 			Munitorum = "none";
 			Bandolier = "none";
-			Field = "vox_v2";
+			Field = "vox_FIG";
 		};
 		class 203rd_KasrkinPowerpack {
 			model = "203rd_Cadian_Backpacks";
 			Munitorum = "none";
 			Bandolier = "none";
-			Field = "kasr_power";
+			Field = "kasr_cable";
 		};
 		class 203rd_KasrkinPowerpack_NC {
 			model = "203rd_Cadian_Backpacks";
 			Munitorum = "none";
 			Bandolier = "none";
-			Field = "kasr_power_NC";
+			Field = "kasr_cable_NC";
 		};
 		class ic_cad_RocketPack_NoStraps {
 			model = "203rd_Cadian_Backpacks";
@@ -1099,14 +1099,6 @@ class XtdGearInfos {
 			rank="pvt";
 			named="none";
 		};
-		class 203rd_CadianArmor_V2_rehisastik{
-			model="203rd_Cadian_Vests";
-			type="medium";
-			variant="v2";
-			spec="troop";
-			rank="pvt";
-			named="rehis";
-		};
 		class 203rd_Armor_V3{
 			model="203rd_Cadian_Vests";
 			type="medium";
@@ -1122,6 +1114,38 @@ class XtdGearInfos {
 			spec="troop";
 			rank="pvt";
 			named="none";
+		};
+		class 203rd_CadianArmor_V1_Rehis{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v1";
+			spec="troop";
+			rank="pvt";
+			named="rehis";
+		};
+		class 203rd_CadianArmor_V2_Rehis{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v2";
+			spec="troop";
+			rank="pvt";
+			named="rehis";
+		};
+		class 203rd_CadianArmor_V3_Rehis{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v3";
+			spec="troop";
+			rank="pvt";
+			named="rehis";
+		};
+		class 203rd_CadianArmor_V4_Rehis{
+			model="203rd_Cadian_Vests";
+			type="medium";
+			variant="v4";
+			spec="troop";
+			rank="pvt";
+			named="rehis";
 		};
 		class 203rd_Armor_Medicae{
 			model="203rd_Cadian_Vests";
@@ -1503,7 +1527,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="none";
-			spec="SWT";
+			spec="HWT";
 			rank="pvt";
 			named="none";
 		};
@@ -1511,7 +1535,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v1";
-			spec="SWT";
+			spec="HWT";
 			rank="pvt";
 			named="none";
 		};
@@ -1519,7 +1543,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v2";
-			spec="SWT";
+			spec="HWT";
 			rank="pvt";
 			named="none";
 		};
@@ -1527,7 +1551,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v3";
-			spec="SWT";
+			spec="HWT";
 			rank="pvt";
 			named="none";
 		};
@@ -1535,7 +1559,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v4";
-			spec="SWT";
+			spec="HWT";
 			rank="pvt";
 			named="none";
 		};
@@ -1543,7 +1567,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="none";
-			spec="SWT";
+			spec="HWT";
 			rank="vet";
 			named="none";
 		};
@@ -1551,7 +1575,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v1";
-			spec="SWT";
+			spec="HWT";
 			rank="vet";
 			named="none";
 		};
@@ -1559,7 +1583,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v2";
-			spec="SWT";
+			spec="HWT";
 			rank="vet";
 			named="none";
 		};
@@ -1567,7 +1591,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v3";
-			spec="SWT";
+			spec="HWT";
 			rank="vet";
 			named="none";
 		};
@@ -1575,7 +1599,7 @@ class XtdGearInfos {
 			model="203rd_Cadian_Vests";
 			type="medium";
 			variant="v4";
-			spec="SWT";
+			spec="HWT";
 			rank="vet";
 			named="none";
 		};

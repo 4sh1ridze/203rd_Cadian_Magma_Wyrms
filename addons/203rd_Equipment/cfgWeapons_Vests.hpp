@@ -100,22 +100,7 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 		};
 		
 	};
-	class 203rd_CadianArmor_V2_Zubastik: 203rd_Armor_V2
-	{
-		author="Brentwood";
-		scope=2;
-		displayName="$STR_TAG_203rdMW_Vest_V2_Zubastik";
-		hiddenSelections[]=
-		{
-			"camo",
-			"camo1"
-		};
-		hiddenSelectionsTextures[]=
-		{
-			"\203rd_Equipment\data\203rd_CadianArmor_Zubastik.paa",
-			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
-		};
-	};
+	
 	class 203rd_Armor_V3: FIG_CadianArmourPV3
 	{
 		author="Brentwood";
@@ -152,7 +137,70 @@ class 203rd_Flakweave_Vest: IC_CAD_FlakVest
 			"\203rd_Equipment\data\203rd_CadianPouches_co.paa",
 			"\203rd_Equipment\data\203rd_CadianPouchesV2_co.paa"
 		};
-		
+	};
+	class 203rd_CadianArmor_V1_Rehis: 203rd_Armor_V1
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_V1_Rehis";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Zubastik.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
+		};
+	};
+	class 203rd_CadianArmor_V2_Rehis: 203rd_Armor_V2
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_V2_Rehis";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Zubastik.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
+		};
+	};
+	class 203rd_CadianArmor_V3_Rehis: 203rd_Armor_V3
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_V3_Rehis";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Zubastik.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
+		};
+	};
+	class 203rd_CadianArmor_V4_Rehis: 203rd_Armor_V4
+	{
+		author="Brentwood";
+		scope=2;
+		displayName="$STR_TAG_203rdMW_Vest_V4_Rehis";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo1"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"\203rd_Equipment\data\203rd_CadianArmor_Zubastik.paa",
+			"\203rd_Equipment\data\203rd_CadianPouches_co.paa"
+		};
 	};
 	class 203rd_Armor_Medicae: 203rd_Armor
 	{

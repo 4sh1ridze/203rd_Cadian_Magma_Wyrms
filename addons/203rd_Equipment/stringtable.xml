@@ -581,11 +581,7 @@
 				<English>[203rd] Flak Vest(V2)</English>
 				<Russian>[203ий] Флак-жилет(В2)</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Vest_V2_Zubastik">
-				<Original>[203rd] Flak Vest(V2, Zubastik)</Original>
-				<English>[203rd] Flak Vest(V2, Zubastik)</English>
-				<Russian>[203ий] Флак-жилет(В2, Зубастик)</Russian>
-			</Key>
+			
 			<Key ID="STR_TAG_203rdMW_Vest_V3">
 				<Original>[203rd] Flak Vest(V3)</Original>
 				<English>[203rd] Flak Vest(V3)</English>
@@ -595,6 +591,26 @@
 				<Original>[203rd] Flak Vest(V4)</Original>
 				<English>[203rd] Flak Vest(V4)</English>
 				<Russian>[203ий] Флак-жилет(В4)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V1_Rehis">
+				<Original>[203rd] Flak Vest(V1, Rehis)</Original>
+				<English>[203rd] Flak Vest(V1, Rehis)</English>
+				<Russian>[203ий] Флак-жилет(В1, Rehis)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V2_Rehis">
+				<Original>[203rd] Flak Vest(V2, Rehis)</Original>
+				<English>[203rd] Flak Vest(V2, Rehis)</English>
+				<Russian>[203ий] Флак-жилет(В2, Rehis)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V3_Rehis">
+				<Original>[203rd] Flak Vest(V3, Rehis)</Original>
+				<English>[203rd] Flak Vest(V3, Rehis)</English>
+				<Russian>[203ий] Флак-жилет(В3, Rehis)</Russian>
+			</Key>
+			<Key ID="STR_TAG_203rdMW_Vest_V4_Rehis">
+				<Original>[203rd] Flak Vest(V4, Rehis)</Original>
+				<English>[203rd] Flak Vest(V4, Rehis)</English>
+				<Russian>[203ий] Флак-жилет(В4, Рехис)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Vest_M_V0">
 				<Original>[203rd] Flak Vest(MED)</Original>
