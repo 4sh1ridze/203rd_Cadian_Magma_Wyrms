@@ -282,7 +282,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -510,7 +510,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -966,7 +966,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -1194,7 +1194,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -1422,7 +1422,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -1650,7 +1650,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -1877,7 +1877,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -1888,12 +1888,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 				class Turrets: Turrets
@@ -1905,17 +1905,17 @@
 							class Wide: Wide
 							{
 								visionMode[] = {"Normal","NVG","Ti"};
-								thermalMode[] = {0,1};
+								thermalMode[] = {4};
 							};
 							class Medium: Medium
 							{
 								visionMode[] = {"Normal","NVG","Ti"};
-								thermalMode[] = {0,1};
+								thermalMode[] = {4};
 							};
 							class Narrow: Narrow
 							{
 								visionMode[] = {"Normal","NVG","Ti"};
-								thermalMode[] = {0,1};
+								thermalMode[] = {4};
 							};
 						};
 					};
@@ -1928,12 +1928,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 			};
@@ -1944,12 +1944,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 			};
@@ -1960,12 +1960,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 			};
@@ -1980,7 +1980,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -1991,12 +1991,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 				class Turrets: Turrets
@@ -2008,17 +2008,17 @@
 							class Wide: Wide
 							{
 								visionMode[] = {"Normal","NVG","Ti"};
-								thermalMode[] = {0,1};
+								thermalMode[] = {4};
 							};
 							class Medium: Medium
 							{
 								visionMode[] = {"Normal","NVG","Ti"};
-								thermalMode[] = {0,1};
+								thermalMode[] = {4};
 							};
 							class Narrow: Narrow
 							{
 								visionMode[] = {"Normal","NVG","Ti"};
-								thermalMode[] = {0,1};
+								thermalMode[] = {4};
 							};
 						};
 					};
@@ -2031,12 +2031,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 			};
@@ -2047,12 +2047,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 			};
@@ -2063,12 +2063,12 @@
 					class Wide: Wide
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 					class Narrow: Narrow
 					{
 						visionMode[] = {"Normal","NVG","Ti"};
-						thermalMode[] = {0,1};
+						thermalMode[] = {4};
 					};
 				};
 			};
