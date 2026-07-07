@@ -19,18 +19,18 @@
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_GG">
 				<Original>Taurox Prime(Battle Cannon)</Original>
-				<English>Taurox Prime(Battle Cannon)</English>
-				<Russian>Таврокс Прайм(Батл Кэнон)</Russian>
+				<English>Taurox Prime(Gatling)</English>
+				<Russian>Таврокс Прайм(Гатлинг)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Light_Vehicle_Taurox_Prime_AC">
 				<Original>Taurox Prime(Battle Cannon)</Original>
-				<English>Taurox Prime(Battle Cannon)</English>
-				<Russian>Таврокс Прайм(Батл Кэнон)</Russian>
+				<English>Taurox Prime(Auto Cannon)</English>
+				<Russian>Таврокс Прайм(Автопушка)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Light_Vehicle_Tauros_U">
 				<Original>Tauros(Unarmed)</Original>
 				<English>Tauros(Unarmed)</English>
-				<Russian>Таурос(Без станка)</Russian>
+				<Russian>Таурос(Невооруженный)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Light_Vehicle_Tauros_GMG">
 				<Original>Tauros(Grenade Machine Gun)</Original>
@@ -40,7 +40,7 @@
 			<Key ID="STR_TAG_203rdMW_Light_Vehicle_Tauros_HMG">
 				<Original>Tauros(Heavy Machine Hun)</Original>
 				<English>Tauros(Heavy Machine Hun)</English>
-				<Russian>Таурос(Стаббер)</Russian>
+				<Russian>Таурос(Тяж.Стаббер)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Light_Vehicle_Tauros_Venator">
 				<Original>Tauros Venator</Original>
@@ -129,7 +129,7 @@
 			<Key ID="STR_TAG_203rdMW_Heavy_Vehicle_Demo_TIOW">
 				<Original>Leman Russ "Demolisher"(TIOW)</Original>
 				<English>Leman Russ "Demolisher"(TIOW)</English>
-				<Russian>Леман Русс "Искоренитель"(ТИОВ)</Russian>
+				<Russian>Леман Русс "Разрушитель"(ТИОВ)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Heavy_Vehicle_Exter_TIOW">
 				<Original>Leman Russ "Exterminator"(TIOW)</Original>
