@@ -8,7 +8,7 @@ class FIG_CadianBackpack2Light;
 class FIG_CadianWebbing2BP;
 class FIG_CadianWebbing3BP;
 class FIG_BandolierBP;
-class TIOW_IG_Vox_Caster_Custom;
+class TIOW_IG_Vox_Caster;
 class ic_CadianBackpackV1;
 class ic_CadianBackpackV3;
 class ic_CadianBackpackV5;
@@ -139,7 +139,7 @@ class 203rd_Backpack_Invisible: FIG_InvisibleBackpack
 		};
 		maximumLoad=240;
 	};
-	class 203rd_Backpack_Vox: TIOW_IG_Vox_Caster_Custom
+	class 203rd_Backpack_Vox: TIOW_IG_Vox_Caster
 	{
 		author="Brentwood";
 		scope=2;

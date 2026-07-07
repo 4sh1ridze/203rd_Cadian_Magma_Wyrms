@@ -34,11 +34,35 @@
 			};
 		};
 	};
+	class IC_Taurox_HS_desert: IC_Taurox_base {};
+	class C203_IC_Taurox_HS_desert_NVG: IC_Taurox_HS_desert
+	{
+		showNVGDriver=1;
+		showNVGCommander=1;
+		showNVGGunner=1;
+		scope=0;
+		scopeCurator=0;
+		class ViewOptics: ViewOptics
+		{
+			visionMode[] = {"Normal","NVG","Ti"};
+			thermalMode[] = {4};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class ViewOptics: ViewOptics
+				{
+					visionMode[] = {"Normal","NVG","Ti"};
+					thermalMode[] = {4};
+				};
+			};
+		};
+	};
 	class C203_Vehicle_APC_Taurox_01: C203_IC_Taurox_HS_desert_NVG
 	{
 		scope=2;
 		scopeCurator=2;
-
 		displayName="$STR_TAG_203rdMW_Light_Vehicle_Taurox";
 		side=1;
 		hasCommander=0;

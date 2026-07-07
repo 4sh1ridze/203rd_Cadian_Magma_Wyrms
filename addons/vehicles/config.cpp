@@ -40,7 +40,8 @@ class CfgPatches
 			"C203_Vehicle_Car_Tauros_03",
 			"C203_Vehicle_land_Tauros_HMG",
 			"C203_Vehicle_Car_Tauros_04",
-			"C203_Vehicle_land_Tauros_Venator"
+			"C203_Vehicle_land_Tauros_Venator",
+			"C203_Banner_EMP"
 		};
 		weapons[]={};
 		requiredAddons[]=
@@ -90,6 +91,10 @@ class CfgEditorCategories
 	{
 		displayName = "$STR_TAG_203rdMW_Faction_Name";
 	};
+  class C203_EdCat_Banner
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Banner";
+	};
 };
 class CfgVehicleClasses
 {
@@ -131,6 +136,10 @@ class CfgEditorSubcategories
 	class 203rdMW_Veh_Heavy_TIOW
 	{
 		displayName = "$STR_TAG_203rdMW_SubCategory_Veh_Heavy_TIOW";
+	};
+	class 203rdMW_Banner
+	{
+		displayName = "$STR_TAG_203rdMW_SubCategory_Banner";
 	};
 };
 class cfgVehicles
@@ -177,4 +186,23 @@ class cfgVehicles
 	#include "cfgVehicles_Tanks.hpp"
 	#include "cfgVehicles_Chimeras.hpp"
 	#include "cfgVehicles_Tauros_x.hpp"
+	class Steve_Loyal_Flags_1;
+	class C203_Banner_EMP: Steve_Loyal_Flags_1
+	{
+		scope=2;
+		scopeCurator=2;
+		displayName="[203rd] Standart of Regimental Daughter";
+		author="CannonFodderMK4 & Steve";
+		mapSize=100;
+		editorCategory="C203_EdCat_Banner";
+		editorSubcategory="203rdMW_Banner";
+		hiddenSelections[]=
+		{
+			"FlagCamo"
+		};
+		hiddenSelectionsTextures[]=
+		{
+			"vehicles\data\c203_banner_Regimental_daughter.paa"
+		};
+	};
 };

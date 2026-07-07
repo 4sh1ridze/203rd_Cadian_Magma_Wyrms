@@ -115,11 +115,11 @@
 				<Russian>"Колобок"</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Menu_Backpack_vox_v1">
-				<Original>Vox Caster(2)</Original>
-				<English>Vox Caster(2)</English>
-				<Russian>Вокс кастер(2)</Russian>
+				<Original>Vox Caster(1)</Original>
+				<English>Vox Caster(1)</English>
+				<Russian>Вокс кастер(1)</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Menu_Backpack_vox_v1">
+			<Key ID="STR_TAG_203rdMW_Menu_Backpack_vox_FIG">
 				<Original>Vox Caster(2)</Original>
 				<English>Vox Caster(2)</English>
 				<Russian>Вокс кастер(2)</Russian>

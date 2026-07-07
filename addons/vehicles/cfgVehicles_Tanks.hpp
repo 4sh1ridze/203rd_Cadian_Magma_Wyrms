@@ -55,7 +55,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -272,7 +272,6 @@
 			};
 		};
 	};
-
 	class C203_TIOW_LR_Vanquisher_NVG: TIOW_LR_Vanquisher
 	{
 		showNVGDriver=1;
@@ -739,7 +738,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{

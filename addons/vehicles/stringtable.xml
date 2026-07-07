@@ -57,6 +57,11 @@
 				<English>[203rd] Light Vehicles(Command)</English>
 				<Russian>[203ий] Лёгкая техника(КШМ)</Russian>
 			</Key>
+			<Key ID="STR_TAG_203rdMW_SubCategory_Banner">
+				<Original>[203rd] Extras</Original>
+				<English>[203rd] Extras</English>
+				<Russian>[203ий] Экстра</Russian>
+			</Key>
 		</Container>
 		<Container name="Medium vehicle localization">
 			<Key ID="STR_TAG_203rdMW_Middle_Vehicle_Chimera_TIOW">

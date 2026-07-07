@@ -46,7 +46,7 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
+			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
 		{
@@ -375,6 +375,237 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
+			thermalMode[] = {4};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class OpticsIn: OpticsIn
+				{
+					class Wide: Wide
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+					class Narrow: Narrow
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+				};
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						class ViewOptics: ViewOptics
+						{
+							visionMode[] = {"Normal","NVG","Ti"};
+							thermalMode[] = {4};
+						};
+						class OpticsIn: OpticsIn
+						{
+							class Wide: Wide
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+							class Medium: Medium
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+							class Narrow: Narrow
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+						};
+					};
+				};
+			};
+			class IC_Hull_turret: IC_Hull_turret
+			{
+				class OpticsIn: OpticsIn
+				{
+					class Wide: Wide
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+					class Narrow: Narrow
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+				};
+			};
+		};
+	};
+	class C203_IC_Chimedon_01_NVG: IC_Chimedon_01_base
+	{
+		showNVGDriver=1;
+		showNVGCommander=1;
+		showNVGGunner=1;
+		scope=0;
+		scopeCurator=0;
+		class ViewOptics: ViewOptics
+		{
+			visionMode[] = {"Normal","NVG","Ti"};
+			thermalMode[] = {4};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class OpticsIn: OpticsIn
+				{
+					class Wide: Wide
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+					class Narrow: Narrow
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+				};
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						class ViewOptics: ViewOptics
+						{
+							visionMode[] = {"Normal","NVG","Ti"};
+							thermalMode[] = {4};
+						};
+						class OpticsIn: OpticsIn
+						{
+							class Wide: Wide
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+							class Medium: Medium
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+							class Narrow: Narrow
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+						};
+					};
+				};
+			};
+			class IC_Hull_turret: IC_Hull_turret
+			{
+				class OpticsIn: OpticsIn
+				{
+					class Wide: Wide
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+					class Narrow: Narrow
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+				};
+			};
+		};
+	};	
+	class C203_IC_Chimerro_01_NVG: IC_Chimerro_01_base
+	{
+		showNVGDriver=1;
+		showNVGCommander=1;
+		showNVGGunner=1;
+		scope=0;
+		scopeCurator=0;
+		class ViewOptics: ViewOptics
+		{
+			visionMode[] = {"Normal","NVG","Ti"};
+			thermalMode[] = {4};
+		};
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class OpticsIn: OpticsIn
+				{
+					class Wide: Wide
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+					class Narrow: Narrow
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+				};
+				class Turrets: Turrets
+				{
+					class CommanderOptics: CommanderOptics
+					{
+						class ViewOptics: ViewOptics
+						{
+							visionMode[] = {"Normal","NVG","Ti"};
+							thermalMode[] = {4};
+						};
+						class OpticsIn: OpticsIn
+						{
+							class Wide: Wide
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+							class Medium: Medium
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+							class Narrow: Narrow
+							{
+								visionMode[] = {"Normal","NVG","Ti"};
+								thermalMode[] = {4};
+							};
+						};
+					};
+				};
+			};
+			class IC_Hull_turret: IC_Hull_turret
+			{
+				class OpticsIn: OpticsIn
+				{
+					class Wide: Wide
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+					class Narrow: Narrow
+					{
+						visionMode[] = {"Normal","NVG","Ti"};
+						thermalMode[] = {4};
+					};
+				};
+			};
+		};
+	};
+	class C203_IC_Chimera_01_NVG: IC_Chimera_01_base
+	{
+		showNVGDriver=1;
+		showNVGCommander=1;
+		showNVGGunner=1;
+		scope=0;
+		scopeCurator=0;
+		class ViewOptics: ViewOptics
+		{
+			visionMode[] = {"Normal","NVG","Ti"};
 			thermalMode[] = {0,1};
 		};
 		class Turrets: Turrets
@@ -658,7 +889,7 @@
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorCategory="C203_EdCat_Vehicles";
-		editorSubcategory="203rdMW_Vehicle_Middle";
+		editorSubcategory="203rdMW_Veh_Middle_COM";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
 		{
@@ -725,7 +956,7 @@
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorCategory="C203_EdCat_Vehicles";
-		editorSubcategory="203rdMW_Vehicle_Middle";
+		editorSubcategory="203rdMW_Veh_Middle_COM";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
 		{
@@ -773,7 +1004,7 @@
 		accuracy=1000;
 		faction="203rdMW_Faction";
 		editorCategory="C203_EdCat_Vehicles";
-		editorSubcategory="203rdMW_Vehicle_Middle";
+		editorSubcategory="203rdMW_Veh_Middle_COM";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
 		{
