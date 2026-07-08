@@ -31,7 +31,20 @@
 					};
 				};
 			};
-			class IC_Hull_turret: NewTurret { class OpticsIn { class Wide; class Narrow; }; };
+			class IC_Hull_turret: NewTurret
+			{
+				class OpticsIn: Optics_Gunner_APC_02
+				{
+					class Wide: Wide
+					{
+						gunnerOpticsModel="\IC_Weapons_base\Reticle\IC_Reticle_APC_01_W.p3d";
+					};
+					class Narrow: Narrow
+					{
+						gunnerOpticsModel="\IC_Weapons_base\Reticle\IC_Reticle_APC_01_N.p3d";
+					};
+				};
+			};
 		};
 	};
 	class IC_Chimedon_01_base: IC_Chimera_01_base {};
