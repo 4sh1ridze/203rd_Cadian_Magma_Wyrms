@@ -68,7 +68,31 @@ class CfgPatches
 			"203rd_Uniform_Rolled_3_Medicae_v_1",
 			"203rd_Uniform_Rolled_3_Medicae_v_2",
 			"203rd_Uniform_Kasrkin_v",
-			"203rd_Uniform_Kasrkin_v_1"
+			"203rd_Uniform_Kasrkin_v_1",
+			"203rdMW_Whiteshield_NoCamo",
+			"203rdMW_Whiteshield_Camo",
+			"203rdMW_Whiteshield_HalfCamo",
+			"203rdMW_Guardsman_NoCamo",
+			"203rdMW_Guardsman_Camo",
+			"203rdMW_Guardsman_HalfCamo",
+			"203rdMW_Sergeant_NoCamo",
+			"203rdMW_Sergeant_Camo",
+			"203rdMW_Sergeant_HalfCamo",
+			"203rdMW_Medicae_NoCamo",
+			"203rdMW_Medicae_Camo",
+			"203rdMW_Medicae_HalfCamo",
+			"203rdMW_HWT_NoCamo",
+			"203rdMW_HWT_Camo",
+			"203rdMW_HWT_HalfCamo",
+			"203rdMW_SWT_NoCamo",
+			"203rdMW_SWT_Camo",
+			"203rdMW_SWT_HalfCamo",
+			"203rdMW_Veteran_NoCamo",
+			"203rdMW_Veteran_Camo",
+			"203rdMW_Veteran_HalfCamo",
+			"203rdMW_Officer_NoCamo",
+			"203rdMW_Officer_Camo",
+			"203rdMW_Officer_HalfCamo"
 		};
 		weapons[]={};
 	};

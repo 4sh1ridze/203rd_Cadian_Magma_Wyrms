@@ -618,7 +618,7 @@
 		scopeCurator = 2;
 		accuracy=1000;
 		faction = "203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory = "203rdMW_Vehicle_Middle";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
@@ -642,7 +642,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction = "203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory = "203rdMW_Vehicle_Middle";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
@@ -672,7 +672,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Middle_COM";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
@@ -715,7 +715,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Vehicle_Middle";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
@@ -739,7 +739,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Middle_COM";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
@@ -763,7 +763,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Vehicle_Middle";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=
@@ -787,7 +787,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Middle_COM";
 		vehicleClass="C203_VehicleClass_Middle";
 		typicalCargo[]=

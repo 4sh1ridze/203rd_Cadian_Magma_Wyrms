@@ -1119,59 +1119,34 @@
 		</Container>
 		<Container name="Units Localizations">
 			<Key ID="STR_TAG_203rdMW_Unit_WhiteShield">
-				<Original>Rifleman</Original>
-				<English>Rifleman</English>
-				<Russian>Стрелок</Russian>
+				<Original>Whiteshield</Original>
+				<English>Whiteshield</English>
+				<Russian>Белый Щит</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_WhiteShield_R">
-				<Original>White Shield(Rolled)</Original>
-				<English>White Shield(Rolled)</English>
-				<Russian>Белый Щит(Закатанка)</Russian>
+			<Key ID="STR_TAG_203rdMW_Unit_Guardsman">
+				<Original>Guardsman</Original>
+				<English>Guardsman</English>
+				<Russian>Гвардеец</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Rifleman">
-				<Original>Senior Rifleman</Original>
-				<English>Senior Rifleman</English>
-				<Russian>Старший Стрелок</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Rifleman_R">
-				<Original>Guardsman(Rolled)</Original>
-				<English>Guardsman(Rolled)</English>
-				<Russian>Гвардеец(Закатанка)</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Specialist">
-				<Original>Specialist</Original>
-				<English>Specialist</English>
-				<Russian>Спелицалист</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Specialist_R">
-				<Original>Specialist(Rolled)</Original>
-				<English>Specialist(Rolled)</English>
-				<Russian>Спелицалист(Закатанка)</Russian>
+			<Key ID="STR_TAG_203rdMW_Unit_SWT">
+				<Original>SWT Guardsman</Original>
+				<English>SWT Guardsman</English>
+				<Russian>Гвардеец СВТ</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Unit_HWT">
 				<Original>HWT Guardsman</Original>
 				<English>HWT Guardsman</English>
 				<Russian>Гвардеец ХВТ</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_SGT">
+			<Key ID="STR_TAG_203rdMW_Unit_Sergeant">
 				<Original>Sergeant</Original>
 				<English>Sergeant</English>
 				<Russian>Сержант</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_VET">
+			<Key ID="STR_TAG_203rdMW_Unit_Veteran">
 				<Original>Veteran</Original>
 				<English>Veteran</English>
 				<Russian>Ветеран</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Rifleman_Overcoat">
-				<Original>Senior Rifleman(Parka)</Original>
-				<English>Senior Rifleman(Parka)</English>
-				<Russian>Старший стрелок(Парка)</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Sergeant_Overcoat">
-				<Original>Sergeant(Parka)</Original>
-				<English>Sergeant(Parka)</English>
-				<Russian>Сержант(Парка)</Russian>
 			</Key>
 			<Key ID="STR_TAG_203rdMW_Unit_Officer">
 				<Original>Officer</Original>
@@ -1183,32 +1158,12 @@
 				<English>Psyker</English>
 				<Russian>Псайкер</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Sergeant">
-				<Original>Sergeant</Original>
-				<English>Sergeant</English>
-				<Russian>Сержант</Russian>
-			</Key>
 			<Key ID="STR_TAG_203rdMW_Unit_Medicae">
 				<Original>Medicae</Original>
 				<English>Medicae</English>
 				<Russian>Медикае</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Medicae_R">
-				<Original>Medicae(Rolled)</Original>
-				<English>Medicae(Rolled)</English>
-				<Russian>Медикае(Закатанка)</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Chirurgeon">
-				<Original>Chirurgeon</Original>
-				<English>Chirurgeon</English>
-				<Russian>Хирургеон</Russian>
-			</Key>
 			<Key ID="STR_TAG_203rdMW_Unit_Medicae_Sergeant">
-				<Original>Medicae Sergeant</Original>
-				<English>Medicae Sergeant</English>
-				<Russian>Сержант Медикае</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Medicae_Sergeant_R">
 				<Original>Medicae Sergeant</Original>
 				<English>Medicae Sergeant</English>
 				<Russian>Сержант Медикае</Russian>
@@ -1222,11 +1177,6 @@
 				<Original>Medicae Veteran</Original>
 				<English>Medicae Veteran</English>
 				<Russian>Ветеран Медикае</Russian>
-			</Key>
-			<Key ID="STR_TAG_203rdMW_Unit_Kasrkin">
-				<Original>Kasrkin</Original>
-				<English>Kasrkin</English>
-				<Russian>Касркин</Russian>
 			</Key>
 		</Container>
 	</Package>

@@ -2083,7 +2083,7 @@
 		scopeCurator = 2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=
@@ -2102,7 +2102,7 @@
 		scope=2;
 		scopeCurator=2;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy";
 		vehicleClass="C203_VehicleClass_Heavy";
 		crew="203rd_02";
@@ -2145,7 +2145,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=
@@ -2164,7 +2164,7 @@
 		scope=2;
 		scopeCurator=2;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy";
 		vehicleClass="C203_VehicleClass_Heavy";
 		crew="203rd_02";
@@ -2228,7 +2228,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=
@@ -2250,7 +2250,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=
@@ -2272,7 +2272,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=
@@ -2294,7 +2294,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=
@@ -2316,7 +2316,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=
@@ -2338,7 +2338,7 @@
 		scopeCurator=2;
 		accuracy=1000;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Heavy_TIOW";
 		vehicleClass="C203_VehicleClass_Heavy";
 		typicalCargo[]=

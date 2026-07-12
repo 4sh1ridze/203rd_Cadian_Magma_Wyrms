@@ -42,7 +42,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -145,7 +145,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -211,7 +211,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -307,7 +307,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -335,7 +335,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -431,7 +431,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -465,7 +465,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -561,7 +561,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -597,7 +597,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -620,7 +620,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -643,7 +643,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -666,7 +666,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -689,7 +689,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -712,7 +712,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -735,7 +735,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -762,7 +762,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
