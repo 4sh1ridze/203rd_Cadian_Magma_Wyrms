@@ -1067,3 +1067,484 @@
 		};
 		
 	};
+	
+	class 203rdMW_Whiteshield_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_WhiteShield";
+		uniformClass="203rd_Uniform_1_w";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3", "203rd_Helmet_Whiteshield", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3", "203rd_Helmet_Whiteshield", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Whiteshield_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_WhiteShield";
+		uniformClass="203rd_Uniform_1_w_1";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3", "203rd_Helmet_Whiteshield", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3", "203rd_Helmet_Whiteshield", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Whiteshield_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_WhiteShield";
+		uniformClass="203rd_Uniform_1_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3", "203rd_Helmet_Whiteshield", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3", "203rd_Helmet_Whiteshield", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Guardsman_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Guardsman";
+		uniformClass="203rd_Uniform_2_w";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Guardsman_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Guardsman";
+		uniformClass="203rd_Uniform_2_w_1";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Guardsman_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Guardsman";
+		uniformClass="203rd_Uniform_2_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Sergeant_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Sergeant";
+		uniformClass="203rd_Uniform_2_w";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Sergeant", "203rd_Helmet_Sergeant", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Sergeant", "203rd_Helmet_Sergeant", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Sergeant_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Sergeant";
+		uniformClass="203rd_Uniform_2_w_1";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Sergeant", "203rd_Helmet_Sergeant", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Sergeant", "203rd_Helmet_Sergeant", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Sergeant_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Sergeant";
+		uniformClass="203rd_Uniform_2_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Sergeant", "203rd_Helmet_Sergeant", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Sergeant", "203rd_Helmet_Sergeant", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Medicae_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Medicae";
+		uniformClass="203rd_Uniform_2_Medicae_w";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "203rd_CadianBackpack2Medicae";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Medicae", "203rd_Helmet_Medicae", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Medicae", "203rd_Helmet_Medicae", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Medicae_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Medicae";
+		uniformClass="203rd_Uniform_2_Medicae_w_1";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "203rd_CadianBackpack2Medicae";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Medicae", "203rd_Helmet_Medicae", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Medicae", "203rd_Helmet_Medicae", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Medicae_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Medicae";
+		uniformClass="203rd_Uniform_2_Medicae_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "203rd_CadianBackpack2Medicae";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Medicae", "203rd_Helmet_Medicae", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Medicae", "203rd_Helmet_Medicae", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_HWT_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_HWT";
+		uniformClass="203rd_Uniform_2_w";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "FIG_CadianBackpackACPGrey";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_HeavyWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_HeavyWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_HWT_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_HWT";
+		uniformClass="203rd_Uniform_2_w_1";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "FIG_CadianBackpackACPGrey";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_HeavyWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_HeavyWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_HWT_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_HWT";
+		uniformClass="203rd_Uniform_2_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "FIG_CadianBackpackACPGrey";
+		weapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_M36Kantrael_Red", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_LasGun_Standart), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_HeavyWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_HeavyWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_SWT_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_SWT";
+		uniformClass="203rd_Uniform_2_w";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "203rd_CadianBackpack2Medicae";
+		weapons[] = { "FIG_PlasmaGun", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_PlasmaGun", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_PlasmaMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_PlasmaMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_SpecialWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_SpecialWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_SWT_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_SWT";
+		uniformClass="203rd_Uniform_2_w_1";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "203rd_CadianBackpack2Medicae";
+		weapons[] = { "FIG_PlasmaGun", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_PlasmaGun", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_PlasmaMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_PlasmaMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_SpecialWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_SpecialWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_SWT_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_SWT";
+		uniformClass="203rd_Uniform_2_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "203rd_CadianBackpack2Medicae";
+		weapons[] = { "FIG_PlasmaGun", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_PlasmaGun", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_PlasmaMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_PlasmaMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_SpecialWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_SpecialWeapons", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Veteran_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Veteran";
+		uniformClass="203rd_Uniform_2_w";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Veteran", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Veteran", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Veteran_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Veteran";
+		uniformClass="203rd_Uniform_2_w_1";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Veteran", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Veteran", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Veteran_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Veteran";
+		uniformClass="203rd_Uniform_2_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Veteran", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Veteran", "203rd_Helmet", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Officer_NoCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Officer";
+		uniformClass="203rd_Uniform_5_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Standart";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Officer", "203rd_Helmet_Officer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Officer", "203rd_Helmet_Officer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Officer_Camo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Officer";
+		uniformClass="203rd_Uniform_5_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Officer", "203rd_Helmet_Officer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Officer", "203rd_Helmet_Officer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};
+	class 203rdMW_Officer_HalfCamo : FIG_CadianUniformV1_inf_B
+	{
+		scope=2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		displayName="$STR_TAG_203rdMW_Unit_Officer";
+		uniformClass="203rd_Uniform_5_w_2";
+		identityTypes[] = { "LanguageENG_F","Head_NATO","" };
+		faction="203rdMW_Faction";
+		editorSubcategory="203rdMW_Troop_Half_Camo";
+		backpack = "203rd_CadianBackpack2BRSH";
+		weapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		respawnWeapons[] = { "FIG_Bolter", "FIG_Knife", "Throw", "Put" };
+		Items[] = { "FirstAidKit" };
+		RespawnItems[] = { "FirstAidKit" };
+		magazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		respawnMagazines[] = { MAG_6(FIG_BolterMag), MAG_2(FIG_Frag_mag), MAG_2(IC_CAD_KRAK_mag)};
+		linkedItems[] = { "203rd_Armor_V3_Officer", "203rd_Helmet_Officer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+		respawnLinkedItems[] = { "203rd_Armor_V3_Officer", "203rd_Helmet_Officer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
+	};

@@ -20,31 +20,6 @@
 		class ViewOptics: ViewOptics
 		{
 			visionMode[] = {"Normal","NVG","Ti"};
-			thermalMode[] = {0,1};
-		};
-		class Turrets: Turrets
-		{
-			class MainTurret: MainTurret
-			{
-				class ViewOptics: ViewOptics
-				{
-					visionMode[] = {"Normal","NVG","Ti"};
-					thermalMode[] = {0,1};
-				};
-			};
-		};
-	};
-	class IC_Taurox_HS_desert: IC_Taurox_base {};
-	class C203_IC_Taurox_HS_desert_NVG: IC_Taurox_HS_desert
-	{
-		showNVGDriver=1;
-		showNVGCommander=1;
-		showNVGGunner=1;
-		scope=0;
-		scopeCurator=0;
-		class ViewOptics: ViewOptics
-		{
-			visionMode[] = {"Normal","NVG","Ti"};
 			thermalMode[] = {4};
 		};
 		class Turrets: Turrets
@@ -67,7 +42,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -170,7 +145,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -236,7 +211,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -332,7 +307,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -360,7 +335,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -456,7 +431,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -490,7 +465,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -586,7 +561,7 @@
 		side=1;
 		hasCommander=0;
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -622,7 +597,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -645,7 +620,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -668,7 +643,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -691,7 +666,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -714,7 +689,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -737,7 +712,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -760,7 +735,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
@@ -787,7 +762,7 @@
 		side=1;
 
 		faction="203rdMW_Faction";
-		editorCategory="C203_EdCat_Vehicles";
+		editorCategory="203rdMW_Faction";
 		editorSubcategory="203rdMW_Veh_Light_COM";
 		vehicleClass="C203_VehicleClass_Light";
 		crew="203rd_02";
