@@ -140,3 +140,21 @@ MW_AnimationPlay_Condition =
 	// Привет Риктусу, который : "Добавлено не будет". Паяц хренов.
 	('203rd' in profileName)
 };
+
+MW_GuardStand_FNC =
+{
+	private _reloadState = 0;
+    private _zoomState = 0;
+    private _jumpState = 0;
+	
+	player playMove "Guard_Pose_in";
+	
+	waitUntil{
+	(inputAction "MoveForward" > 0) or
+	(inputAction "MoveBack" > 0) or
+	(inputAction "TurnLeft" > 0) or
+	(inputAction "TurnRight" > 0)
+	};
+	
+	player switchMove "Guard_Pose_out";
+};

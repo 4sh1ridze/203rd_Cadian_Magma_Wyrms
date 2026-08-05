@@ -1,0 +1,157 @@
+class CfgPatches
+{
+	class 203rdMW_Animations
+	{
+		author="4sh1r";
+		requiredAddons[]=
+		{
+			"A3_Data_F"
+		};
+		requiredVersion=1;
+	};
+};
+class CfgMovesBasic
+{
+	class Actions
+	{
+		class Guard_Pose_loop
+		{
+			transitionWhenIdle = "Idle"
+		};
+	};
+};
+class CfgMovesMaleSdr: CfgMovesBasic
+{
+	class States
+	{
+		class AmovPercMstpSnonWnonDnon;
+		class Guard_Pose_in: AmovPercMstpSnonWnonDnon
+		{
+			variantsPlayer[]={};
+			forceAim=1;
+			static=0;
+			weaponObstructed=0;
+			weaponLowered=1;
+			canReload=0;
+			speed=1.2;
+			enableBinocular=1;
+			file="203rd_animations\Guard_Pose_in.rtm";
+			looped=0;
+			minPlayTime=2;
+			disableWeapons=1;
+			ignoreMinPlayTime[]=
+			{
+				"Unconscious"
+			};
+			soundEnabled=0;
+			canBlendStep=0;
+			ConnectFrom[]=
+			{
+				"AmovPercMstpSnonWnonDnon",
+				0.1
+			};
+			ConnectTo[]=
+			{
+				"Guard_Pose_loop",
+				0.1
+			};
+			InterpolateTo[]=
+			{
+				"Guard_Pose_loop",
+				0.5,
+				"Unconscious",
+				0.2
+			};
+			InterpolateFrom[]=
+			{
+				"AmovPercMstpSnonWnonDnon",
+				0.5
+			};
+			enableDirectControl=1;
+		};
+		class Guard_Pose_loop: AmovPercMstpSnonWnonDnon
+		{
+			variantsPlayer[]={};
+			forceAim=1;
+			static=1;
+			weaponObstructed=0;
+			weaponLowered=1;
+			canReload=0;
+			speed=0.2;
+			enableBinocular=1;
+			file="203rd_animations\Guard_Pose_loop.rtm";
+			looped=1;
+			minPlayTime=1;
+			disableWeapons=1;
+			ignoreMinPlayTime[]=
+			{
+				"Unconscious"
+			};
+			soundEnabled=0;
+			canBlendStep=0;
+			ConnectFrom[]=
+			{
+				"Guard_Pose_in",
+				0.1,
+				"Guard_Pose_loop",
+				0.1
+			};
+			InterpolateFrom[]=
+			{
+				"Guard_Pose_in",
+				0.5,
+				"Guard_Pose_loop",
+				0.1
+			};
+			ConnectTo[]=
+			{
+				"Guard_Pose_loop",
+				0.1
+			};
+			InterpolateTo[]=
+			{
+				"Guard_Pose_loop",
+				0.5,
+				"Unconscious",
+				0.2
+			};
+			enableDirectControl=1;
+		};
+		class Guard_Pose_out: AmovPercMstpSnonWnonDnon
+		{
+			variantsPlayer[]={};
+			forceAim=1;
+			static=0;
+			weaponObstructed=0;
+			weaponLowered=1;
+			canReload=0;
+			speed=1.2;
+			enableBinocular=1;
+			file="203rd_animations\Guard_Pose_out.rtm";
+			looped=0;
+			minPlayTime=2;
+			disableWeapons=1;
+			ignoreMinPlayTime[]=
+			{
+				"Unconscious"
+			};
+			soundEnabled=0;
+			canBlendStep=0;
+			ConnectFrom[]={};
+			InterpolateFrom[]={};
+			ConnectTo[]=
+			{
+				"AmovPercMstpSnonWnonDnon",
+				0.1
+			};
+			InterpolateTo[]=
+			{
+				"AmovPercMstpSnonWnonDnon",
+				0.5,
+				"Unconscious",
+				0.2
+			};
+			enableDirectControl=1;
+		};
+	};
+};
