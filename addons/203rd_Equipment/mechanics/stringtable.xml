@@ -52,10 +52,10 @@
 				<English>Animations</English>
 				<Russian>Анимации</Russian>
 			</Key>
-			<Key ID="STR_TAG_203rdMW_ACESI_Animation_Smoking">
-				<Original>Begin Smoking</Original>
-				<English>Begin Smoking</English>
-				<Russian>Начать курить</Russian>
+			<Key ID="STR_TAG_203rdMW_ACESI_Animation_Guard">
+				<Original>Stand at attention</Original>
+				<English>Stand at attention</English>
+				<Russian>Встать смирно</Russian>
 			</Key>
 		</Container>
 	</Package>

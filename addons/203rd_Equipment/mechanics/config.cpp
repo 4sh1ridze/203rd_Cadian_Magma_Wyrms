@@ -11,9 +11,9 @@ class CfgPatches
 		};
 	};
 };
-class Extended_PreInit_EventHandlers {
+class Extended_PostInit_EventHandlers {
     class 203rdMW_Equipment_Script {
-        init = "call compile preprocessFileLineNumbers '203rd_Equipment\mechanics\Equipment_customize.sqf'";
+        init = "execVM '203rd_Equipment\mechanics\Equipment_customize.sqf'; ";
     };
 };
 class CfgVehicles
@@ -80,12 +80,12 @@ class CfgVehicles
 				class 203rdMW_Animations
 				{
 					displayName="$STR_TAG_203rdMW_ACESI_Anim_Name";
-					class 203rdMW_cig_smoking_loop
+					class 203rdMW_stand_into_guard
 					{
-						displayName="$STR_TAG_203rdMW_ACESI_Animation_Smoking";
+						displayName="$STR_TAG_203rdMW_ACESI_Animation_Guard";
 						condition="[ace_player] call MW_AnimationPlay_Condition";
 						exceptions[]={};
-						statement="[ace_player, 'cigs_anim_cig_loop'] remoteExec ['switchGesture', 0]";
+						statement="[ace_player] spawn MW_GuardStand_FNC";
 					};
 				};
 			};
