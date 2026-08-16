@@ -7,6 +7,8 @@ class CfgPatches
 		{
 			"A3_Data_F"
 		};
+		units[]={};
+		weapons[]={};
 		requiredVersion=1;
 	};
 };
